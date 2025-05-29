@@ -1,0 +1,4002 @@
+[
+  {
+    "word":"پیراهن روز",
+    "category":"simple_single"
+  },
+  {
+    "word":"آب در کوزه و ما تشنه‌لبان می‌گردیم عجیب",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"دستمال کاغذی عجیب",
+    "category":"simple_compound"
+  },
+  {
+    "word":"خوش‌تر آن باشد که سر دلبران گفته آید در حدیث دیگران عجیب",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"باران روشن",
+    "category":"simple_single"
+  },
+  {
+    "word":"هر چه سنگ است برای پای لنگ است زیبا",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"ماه بی‌صدا",
+    "category":"simple_single"
+  },
+  {
+    "word":"آتش عجیب",
+    "category":"simple_single"
+  },
+  {
+    "word":"دل داده‌ام بر باد، بر هر چه بادا باد",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"باران بی‌صدا",
+    "category":"simple_single"
+  },
+  {
+    "word":"خانه قدیمی",
+    "category":"simple_single"
+  },
+  {
+    "word":"شعاعی زیبا",
+    "category":"hard_single"
+  },
+  {
+    "word":"نابهنجاری جدید",
+    "category":"hard_single"
+  },
+  {
+    "word":"فشار روانی شدید خسته",
+    "category":"hard_compound"
+  },
+  {
+    "word":"فرآیند تصمیم‌گیری پیچیده خسته",
+    "category":"hard_compound"
+  },
+  {
+    "word":"شبکه‌های توزیع نامتقارن روشن",
+    "category":"hard_compound"
+  },
+  {
+    "word":"مکانیزم",
+    "category":"hard_single"
+  },
+  {
+    "word":"شعاعی تاریک",
+    "category":"hard_single"
+  },
+  {
+    "word":"دل داده‌ام بر باد، بر هر چه بادا باد آرام",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"مداد رنگی آرام",
+    "category":"simple_compound"
+  },
+  {
+    "word":"ساختارهای پیچیده ژنتیکی عجیب",
+    "category":"hard_compound"
+  },
+  {
+    "word":"به یاد کسی، ز دیده خون دل می‌چکد سریع",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"ساختار شکنی ذهنی خسته",
+    "category":"hard_compound"
+  },
+  {
+    "word":"خورشید روشن",
+    "category":"simple_single"
+  },
+  {
+    "word":"وابستگی متقابل سازمانی بلند",
+    "category":"hard_compound"
+  },
+  {
+    "word":"پروتکل‌های ارتباطی رمزگذاری‌شده بی‌صدا",
+    "category":"hard_compound"
+  },
+  {
+    "word":"مخمصه دور",
+    "category":"hard_single"
+  },
+  {
+    "word":"به خلوتی بنشستم با دلبر و یار خسته",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"درگیری‌های مرزی بی‌صدا",
+    "category":"hard_compound"
+  },
+  {
+    "word":"آب که یک‌جا بماند، می‌گندد آرام",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"فشار روانی شدید پنهان",
+    "category":"hard_compound"
+  },
+  {
+    "word":"دی شیخ با چراغ همی‌گشت گرد شهر آرام",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"درگیری‌های مرزی تاریک",
+    "category":"hard_compound"
+  },
+  {
+    "word":"قفل درب نزدیک",
+    "category":"simple_compound"
+  },
+  {
+    "word":"تضاد منافع اقتصادی زیبا",
+    "category":"hard_compound"
+  },
+  {
+    "word":"اختلاس تاریک",
+    "category":"hard_single"
+  },
+  {
+    "word":"فشار روانی شدید تاریک",
+    "category":"hard_compound"
+  },
+  {
+    "word":"سیاست‌گذاری خاموش",
+    "category":"hard_single"
+  },
+  {
+    "word":"سیب سریع",
+    "category":"simple_single"
+  },
+  {
+    "word":"مکانیزم خاموش",
+    "category":"hard_single"
+  },
+  {
+    "word":"برهم‌کنش‌های مولکولی زیبا",
+    "category":"hard_compound"
+  },
+  {
+    "word":"محرمانه جدید",
+    "category":"hard_single"
+  },
+  {
+    "word":"شام خانوادگی آرام",
+    "category":"simple_compound"
+  },
+  {
+    "word":"شام خانوادگی نزدیک",
+    "category":"simple_compound"
+  },
+  {
+    "word":"تغییرات اقلیمی گسترده جدید",
+    "category":"hard_compound"
+  },
+  {
+    "word":"کفش ورزشی خسته",
+    "category":"simple_compound"
+  },
+  {
+    "word":"مخمصه جدید",
+    "category":"hard_single"
+  },
+  {
+    "word":"هم‌افزایی آرام",
+    "category":"hard_single"
+  },
+  {
+    "word":"به گربه گفتن زکی نزدیک",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"خورشید بی‌صدا",
+    "category":"simple_single"
+  },
+  {
+    "word":"شبکه‌های توزیع نامتقارن خسته",
+    "category":"hard_compound"
+  },
+  {
+    "word":"شتر دیدی ندیدی بلند",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"مرغ همسایه غاز است دور",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"جایگاه عجیب",
+    "category":"hard_single"
+  },
+  {
+    "word":"هم‌افزایی عجیب",
+    "category":"hard_single"
+  },
+  {
+    "word":"قفل درب پنهان",
+    "category":"simple_compound"
+  },
+  {
+    "word":"آب معدنی نزدیک",
+    "category":"simple_compound"
+  },
+  {
+    "word":"تخته سفید نزدیک",
+    "category":"simple_compound"
+  },
+  {
+    "word":"پروتکل‌های ارتباطی رمزگذاری‌شده پنهان",
+    "category":"hard_compound"
+  },
+  {
+    "word":"تا مرد سخن نگفته باشد، عیب و هنرش نهفته باشد زیبا",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"وابستگی متقابل سازمانی",
+    "category":"hard_compound"
+  },
+  {
+    "word":"فرآیند تصمیم‌گیری پیچیده بلند",
+    "category":"hard_compound"
+  },
+  {
+    "word":"بازدارنده سریع",
+    "category":"hard_single"
+  },
+  {
+    "word":"دستمال کاغذی زیبا",
+    "category":"simple_compound"
+  },
+  {
+    "word":"کیف دستی جدید",
+    "category":"simple_compound"
+  },
+  {
+    "word":"نقطه‌چین نامتقارن نزدیک",
+    "category":"hard_compound"
+  },
+  {
+    "word":"اضمحلال بلند",
+    "category":"hard_single"
+  },
+  {
+    "word":"در نوشابه نزدیک",
+    "category":"simple_compound"
+  },
+  {
+    "word":"آب معدنی پنهان",
+    "category":"simple_compound"
+  },
+  {
+    "word":"آتش روز",
+    "category":"simple_single"
+  },
+  {
+    "word":"سیاست‌گذاری زیبا",
+    "category":"hard_single"
+  },
+  {
+    "word":"دی شیخ با چراغ همی‌گشت گرد شهر سریع",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"مرغ همسایه غاز است روشن",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"خورشید بی‌نور",
+    "category":"simple_single"
+  },
+  {
+    "word":"رمزنگاری کلید عمومی",
+    "category":"hard_compound"
+  },
+  {
+    "word":"تحلیل سیستمی فرآیند بی‌صدا",
+    "category":"hard_compound"
+  },
+  {
+    "word":"هر که طاووس خواهد، جور هندوستان کشد خاموش",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"فرآیند تصمیم‌گیری پیچیده نزدیک",
+    "category":"hard_compound"
+  },
+  {
+    "word":"پوشه مدارک بلند",
+    "category":"simple_compound"
+  },
+  {
+    "word":"آتش دور",
+    "category":"simple_single"
+  },
+  {
+    "word":"تناقض نزدیک",
+    "category":"hard_single"
+  },
+  {
+    "word":"دیوار تاریک",
+    "category":"simple_single"
+  },
+  {
+    "word":"چو ایران نباشد تن من مباد سریع",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"به گربه گفتن زکی خاموش",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"تخته سفید خاموش",
+    "category":"simple_compound"
+  },
+  {
+    "word":"درخت",
+    "category":"simple_single"
+  },
+  {
+    "word":"شعاعی خاموش",
+    "category":"hard_single"
+  },
+  {
+    "word":"ترکیب‌پذیر قدیمی",
+    "category":"hard_single"
+  },
+  {
+    "word":"مرغ همسایه غاز است بلند",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"شام خانوادگی تاریک",
+    "category":"simple_compound"
+  },
+  {
+    "word":"فرآیند تصمیم‌گیری پیچیده روشن",
+    "category":"hard_compound"
+  },
+  {
+    "word":"مدیریت بحران بین‌المللی سریع",
+    "category":"hard_compound"
+  },
+  {
+    "word":"کیف دستی دور",
+    "category":"simple_compound"
+  },
+  {
+    "word":"هر که بامش بیش، برفش بیشتر سریع",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"زنگ تلفن نزدیک",
+    "category":"simple_compound"
+  },
+  {
+    "word":"پوشه مدارک زیبا",
+    "category":"simple_compound"
+  },
+  {
+    "word":"دریا جدید",
+    "category":"simple_single"
+  },
+  {
+    "word":"تغییرات اقلیمی گسترده دور",
+    "category":"hard_compound"
+  },
+  {
+    "word":"برگ روز",
+    "category":"simple_single"
+  },
+  {
+    "word":"سفر کاری روز",
+    "category":"simple_compound"
+  },
+  {
+    "word":"مداد رنگی روشن",
+    "category":"simple_compound"
+  },
+  {
+    "word":"خوش‌تر آن باشد که سر دلبران گفته آید در حدیث دیگران بی‌صدا",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"پلاسمای خون روشن",
+    "category":"hard_single"
+  },
+  {
+    "word":"اختلاس آرام",
+    "category":"hard_single"
+  },
+  {
+    "word":"ترکیب‌پذیر تاریک",
+    "category":"hard_single"
+  },
+  {
+    "word":"تناقض",
+    "category":"hard_single"
+  },
+  {
+    "word":"فروپاشی عجیب",
+    "category":"hard_single"
+  },
+  {
+    "word":"کیف دستی خسته",
+    "category":"simple_compound"
+  },
+  {
+    "word":"لباس راحتی روز",
+    "category":"simple_compound"
+  },
+  {
+    "word":"قفل درب قدیمی",
+    "category":"simple_compound"
+  },
+  {
+    "word":"شتر دیدی ندیدی آرام",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"دریا بلند",
+    "category":"simple_single"
+  },
+  {
+    "word":"چو ایران نباشد تن من مباد",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"کفش شب",
+    "category":"simple_single"
+  },
+  {
+    "word":"کیف دستی سریع",
+    "category":"simple_compound"
+  },
+  {
+    "word":"سفر کاری پنهان",
+    "category":"simple_compound"
+  },
+  {
+    "word":"تخته سفید پنهان",
+    "category":"simple_compound"
+  },
+  {
+    "word":"ساختار شکنی ذهنی دور",
+    "category":"hard_compound"
+  },
+  {
+    "word":"به گربه گفتن زکی روز",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"مکانیزم بی‌صدا",
+    "category":"hard_single"
+  },
+  {
+    "word":"کوه به کوه نمی‌رسد، آدم به آدم می‌رسد عجیب",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"خانه شب",
+    "category":"simple_single"
+  },
+  {
+    "word":"نه هر که چهره برافروخت دلبری داند تاریک",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"نقطه‌چین نامتقارن خسته",
+    "category":"hard_compound"
+  },
+  {
+    "word":"دل به دل راه دارد بلند",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"چراغ بی‌صدا",
+    "category":"simple_single"
+  },
+  {
+    "word":"ساعت قدیمی",
+    "category":"simple_single"
+  },
+  {
+    "word":"آتش بی‌نور",
+    "category":"simple_single"
+  },
+  {
+    "word":"سیاست‌گذاری خسته",
+    "category":"hard_single"
+  },
+  {
+    "word":"کتاب درسی پنهان",
+    "category":"simple_compound"
+  },
+  {
+    "word":"چراغ مطالعه آرام",
+    "category":"simple_compound"
+  },
+  {
+    "word":"جایگاه پنهان",
+    "category":"hard_single"
+  },
+  {
+    "word":"سیب بی‌نور",
+    "category":"simple_single"
+  },
+  {
+    "word":"کفش ورزشی بی‌صدا",
+    "category":"simple_compound"
+  },
+  {
+    "word":"گل زیبا",
+    "category":"simple_single"
+  },
+  {
+    "word":"آب معدنی بلند",
+    "category":"simple_compound"
+  },
+  {
+    "word":"مداد رنگی جدید",
+    "category":"simple_compound"
+  },
+  {
+    "word":"اختلاس روز",
+    "category":"hard_single"
+  },
+  {
+    "word":"خانه تاریک",
+    "category":"simple_single"
+  },
+  {
+    "word":"هر که طاووس خواهد، جور هندوستان کشد روشن",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"از تو حرکت، از خدا برکت سریع",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"دریا آرام",
+    "category":"simple_single"
+  },
+  {
+    "word":"چو ایران نباشد تن من مباد روز",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"پلاسمای خون زیبا",
+    "category":"hard_single"
+  },
+  {
+    "word":"کتاب",
+    "category":"simple_single"
+  },
+  {
+    "word":"چو ایران نباشد تن من مباد شب",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"قلم خودکار",
+    "category":"simple_compound"
+  },
+  {
+    "word":"تغییرات اقلیمی گسترده خسته",
+    "category":"hard_compound"
+  },
+  {
+    "word":"از تو حرکت، از خدا برکت نزدیک",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"تسلسل زیبا",
+    "category":"hard_single"
+  },
+  {
+    "word":"نقطه‌چین نامتقارن زیبا",
+    "category":"hard_compound"
+  },
+  {
+    "word":"نه هر که چهره برافروخت دلبری داند شب",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"ساختارهای پیچیده ژنتیکی شب",
+    "category":"hard_compound"
+  },
+  {
+    "word":"به یاد کسی، ز دیده خون دل می‌چکد عجیب",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"پروتکل‌های ارتباطی رمزگذاری‌شده نزدیک",
+    "category":"hard_compound"
+  },
+  {
+    "word":"مرغ همسایه غاز است جدید",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"باران قدیمی",
+    "category":"simple_single"
+  },
+  {
+    "word":"پنجره روز",
+    "category":"simple_single"
+  },
+  {
+    "word":"شتر دیدی ندیدی بی‌نور",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"کتاب درسی عجیب",
+    "category":"simple_compound"
+  },
+  {
+    "word":"دل به دل راه دارد آرام",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"مداد رنگی روز",
+    "category":"simple_compound"
+  },
+  {
+    "word":"خورشید زیبا",
+    "category":"simple_single"
+  },
+  {
+    "word":"کفش ورزشی",
+    "category":"simple_compound"
+  },
+  {
+    "word":"دی شیخ با چراغ همی‌گشت گرد شهر نزدیک",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"کیف دستی",
+    "category":"simple_compound"
+  },
+  {
+    "word":"پنجره آرام",
+    "category":"simple_single"
+  },
+  {
+    "word":"برهم‌کنش‌های مولکولی آرام",
+    "category":"hard_compound"
+  },
+  {
+    "word":"ماه سریع",
+    "category":"simple_single"
+  },
+  {
+    "word":"کتاب آرام",
+    "category":"simple_single"
+  },
+  {
+    "word":"کارت بانکی خاموش",
+    "category":"simple_compound"
+  },
+  {
+    "word":"هر چه سنگ است برای پای لنگ است شب",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"چتر بارانی دور",
+    "category":"simple_compound"
+  },
+  {
+    "word":"چو ایران نباشد تن من مباد تاریک",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"کیف دستی قدیمی",
+    "category":"simple_compound"
+  },
+  {
+    "word":"آب که یک‌جا بماند، می‌گندد",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"نقطه‌چین نامتقارن عجیب",
+    "category":"hard_compound"
+  },
+  {
+    "word":"برنامه‌ریزی غیرخطی روشن",
+    "category":"hard_compound"
+  },
+  {
+    "word":"نه هر که چهره برافروخت دلبری داند عجیب",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"شام خانوادگی شب",
+    "category":"simple_compound"
+  },
+  {
+    "word":"از تو حرکت، از خدا برکت خسته",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"به یاد کسی، ز دیده خون دل می‌چکد دور",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"چراغ شب",
+    "category":"simple_single"
+  },
+  {
+    "word":"پیش‌زمینه قدیمی",
+    "category":"hard_single"
+  },
+  {
+    "word":"خوش‌تر آن باشد که سر دلبران گفته آید در حدیث دیگران نزدیک",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"ساعت عجیب",
+    "category":"simple_single"
+  },
+  {
+    "word":"دل داده‌ام بر باد، بر هر چه بادا باد شب",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"بی‌نظمی خسته",
+    "category":"hard_single"
+  },
+  {
+    "word":"نظام‌نامه دور",
+    "category":"hard_single"
+  },
+  {
+    "word":"پیراهن آرام",
+    "category":"simple_single"
+  },
+  {
+    "word":"پیش‌زمینه آرام",
+    "category":"hard_single"
+  },
+  {
+    "word":"دل داده‌ام بر باد، بر هر چه بادا باد قدیمی",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"جایگاه تاریک",
+    "category":"hard_single"
+  },
+  {
+    "word":"اختلاس پنهان",
+    "category":"hard_single"
+  },
+  {
+    "word":"برنامه‌ریزی غیرخطی سریع",
+    "category":"hard_compound"
+  },
+  {
+    "word":"دستمال کاغذی آرام",
+    "category":"simple_compound"
+  },
+  {
+    "word":"برنامه‌ریزی غیرخطی جدید",
+    "category":"hard_compound"
+  },
+  {
+    "word":"مخمصه",
+    "category":"hard_single"
+  },
+  {
+    "word":"از تو حرکت، از خدا برکت عجیب",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"فروپاشی بی‌صدا",
+    "category":"hard_single"
+  },
+  {
+    "word":"سیاست‌گذاری بی‌صدا",
+    "category":"hard_single"
+  },
+  {
+    "word":"ساختار شکنی ذهنی بی‌صدا",
+    "category":"hard_compound"
+  },
+  {
+    "word":"سرمایه‌گذاری بلندمدت خارجی خسته",
+    "category":"hard_compound"
+  },
+  {
+    "word":"شعاعی قدیمی",
+    "category":"hard_single"
+  },
+  {
+    "word":"آب در کوزه و ما تشنه‌لبان می‌گردیم روشن",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"آب معدنی آرام",
+    "category":"simple_compound"
+  },
+  {
+    "word":"اضمحلال خاموش",
+    "category":"hard_single"
+  },
+  {
+    "word":"مخمصه بی‌نور",
+    "category":"hard_single"
+  },
+  {
+    "word":"پلاسمای خون قدیمی",
+    "category":"hard_single"
+  },
+  {
+    "word":"درگیری‌های مرزی شب",
+    "category":"hard_compound"
+  },
+  {
+    "word":"دیوار روز",
+    "category":"simple_single"
+  },
+  {
+    "word":"کفش ورزشی روز",
+    "category":"simple_compound"
+  },
+  {
+    "word":"چو ایران نباشد تن من مباد آرام",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"پنکه رومیزی آرام",
+    "category":"simple_compound"
+  },
+  {
+    "word":"نه هر که چهره برافروخت دلبری داند روشن",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"شبکه‌های توزیع نامتقارن پنهان",
+    "category":"hard_compound"
+  },
+  {
+    "word":"ساعت تاریک",
+    "category":"simple_single"
+  },
+  {
+    "word":"ماه دور",
+    "category":"simple_single"
+  },
+  {
+    "word":"چتر بارانی پنهان",
+    "category":"simple_compound"
+  },
+  {
+    "word":"شام خانوادگی روشن",
+    "category":"simple_compound"
+  },
+  {
+    "word":"نابهنجاری پنهان",
+    "category":"hard_single"
+  },
+  {
+    "word":"خانه دور",
+    "category":"simple_single"
+  },
+  {
+    "word":"چتر بارانی زیبا",
+    "category":"simple_compound"
+  },
+  {
+    "word":"پروتکل‌های ارتباطی رمزگذاری‌شده شب",
+    "category":"hard_compound"
+  },
+  {
+    "word":"کارت بانکی زیبا",
+    "category":"simple_compound"
+  },
+  {
+    "word":"فرآیند تصمیم‌گیری پیچیده پنهان",
+    "category":"hard_compound"
+  },
+  {
+    "word":"مداد رنگی پنهان",
+    "category":"simple_compound"
+  },
+  {
+    "word":"پنکه رومیزی بی‌نور",
+    "category":"simple_compound"
+  },
+  {
+    "word":"دستمال کاغذی سریع",
+    "category":"simple_compound"
+  },
+  {
+    "word":"قلم خودکار جدید",
+    "category":"simple_compound"
+  },
+  {
+    "word":"دل به دل راه دارد نزدیک",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"فشار روانی شدید خاموش",
+    "category":"hard_compound"
+  },
+  {
+    "word":"تسلسل روشن",
+    "category":"hard_single"
+  },
+  {
+    "word":"فروپاشی روشن",
+    "category":"hard_single"
+  },
+  {
+    "word":"آب که یک‌جا بماند، می‌گندد روز",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"آب در کوزه و ما تشنه‌لبان می‌گردیم خاموش",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"مخمصه تاریک",
+    "category":"hard_single"
+  },
+  {
+    "word":"شام خانوادگی بی‌صدا",
+    "category":"simple_compound"
+  },
+  {
+    "word":"تناقض پنهان",
+    "category":"hard_single"
+  },
+  {
+    "word":"کارت بانکی",
+    "category":"simple_compound"
+  },
+  {
+    "word":"درخت روز",
+    "category":"simple_single"
+  },
+  {
+    "word":"گل خسته",
+    "category":"simple_single"
+  },
+  {
+    "word":"پنجره بی‌صدا",
+    "category":"simple_single"
+  },
+  {
+    "word":"تا تو با منی زمانه با من است آرام",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"پوشه مدارک جدید",
+    "category":"simple_compound"
+  },
+  {
+    "word":"پنکه رومیزی روز",
+    "category":"simple_compound"
+  },
+  {
+    "word":"باد پنهان",
+    "category":"simple_single"
+  },
+  {
+    "word":"مرغ همسایه غاز است خسته",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"شبکه‌های توزیع نامتقارن روز",
+    "category":"hard_compound"
+  },
+  {
+    "word":"دل داده‌ام بر باد، بر هر چه بادا باد بلند",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"سیب خسته",
+    "category":"simple_single"
+  },
+  {
+    "word":"فشار روانی شدید نزدیک",
+    "category":"hard_compound"
+  },
+  {
+    "word":"فرآیند تصمیم‌گیری پیچیده بی‌نور",
+    "category":"hard_compound"
+  },
+  {
+    "word":"لباس راحتی قدیمی",
+    "category":"simple_compound"
+  },
+  {
+    "word":"تضاد منافع اقتصادی دور",
+    "category":"hard_compound"
+  },
+  {
+    "word":"پروتکل‌های ارتباطی رمزگذاری‌شده",
+    "category":"hard_compound"
+  },
+  {
+    "word":"تلفن همراه پنهان",
+    "category":"simple_compound"
+  },
+  {
+    "word":"هر که بامش بیش، برفش بیشتر بلند",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"ساختارهای پیچیده ژنتیکی روز",
+    "category":"hard_compound"
+  },
+  {
+    "word":"دریا قدیمی",
+    "category":"simple_single"
+  },
+  {
+    "word":"پلاسمای خون عجیب",
+    "category":"hard_single"
+  },
+  {
+    "word":"هر که طاووس خواهد، جور هندوستان کشد شب",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"جایگاه خاموش",
+    "category":"hard_single"
+  },
+  {
+    "word":"چراغ مطالعه سریع",
+    "category":"simple_compound"
+  },
+  {
+    "word":"لباس راحتی زیبا",
+    "category":"simple_compound"
+  },
+  {
+    "word":"کتاب بلند",
+    "category":"simple_single"
+  },
+  {
+    "word":"ساختار شکنی ذهنی نزدیک",
+    "category":"hard_compound"
+  },
+  {
+    "word":"دریا نزدیک",
+    "category":"simple_single"
+  },
+  {
+    "word":"شام خانوادگی خاموش",
+    "category":"simple_compound"
+  },
+  {
+    "word":"کتاب تاریک",
+    "category":"simple_single"
+  },
+  {
+    "word":"پنکه رومیزی قدیمی",
+    "category":"simple_compound"
+  },
+  {
+    "word":"معادلات دیفرانسیل بی‌صدا",
+    "category":"hard_compound"
+  },
+  {
+    "word":"گل تاریک",
+    "category":"simple_single"
+  },
+  {
+    "word":"کفش خاموش",
+    "category":"simple_single"
+  },
+  {
+    "word":"چراغ زیبا",
+    "category":"simple_single"
+  },
+  {
+    "word":"به خلوتی بنشستم با دلبر و یار روز",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"مداد رنگی خاموش",
+    "category":"simple_compound"
+  },
+  {
+    "word":"چتر بارانی روز",
+    "category":"simple_compound"
+  },
+  {
+    "word":"آب که یک‌جا بماند، می‌گندد بی‌صدا",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"تا مرد سخن نگفته باشد، عیب و هنرش نهفته باشد عجیب",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"پیراهن",
+    "category":"simple_single"
+  },
+  {
+    "word":"سرمایه‌گذاری بلندمدت خارجی خاموش",
+    "category":"hard_compound"
+  },
+  {
+    "word":"خوش‌تر آن باشد که سر دلبران گفته آید در حدیث دیگران بلند",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"محرمانه بلند",
+    "category":"hard_single"
+  },
+  {
+    "word":"ماه عجیب",
+    "category":"simple_single"
+  },
+  {
+    "word":"بازدارنده",
+    "category":"hard_single"
+  },
+  {
+    "word":"توسعه ناپایدار شهری آرام",
+    "category":"hard_compound"
+  },
+  {
+    "word":"بازدارنده بی‌صدا",
+    "category":"hard_single"
+  },
+  {
+    "word":"آتش سریع",
+    "category":"simple_single"
+  },
+  {
+    "word":"پنجره تاریک",
+    "category":"simple_single"
+  },
+  {
+    "word":"نظریه آشوب سریع",
+    "category":"hard_compound"
+  },
+  {
+    "word":"به یاد کسی، ز دیده خون دل می‌چکد پنهان",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"برنامه‌ریزی غیرخطی نزدیک",
+    "category":"hard_compound"
+  },
+  {
+    "word":"شام خانوادگی زیبا",
+    "category":"simple_compound"
+  },
+  {
+    "word":"معادلات دیفرانسیل پنهان",
+    "category":"hard_compound"
+  },
+  {
+    "word":"وابستگی متقابل سازمانی زیبا",
+    "category":"hard_compound"
+  },
+  {
+    "word":"پنجره قدیمی",
+    "category":"simple_single"
+  },
+  {
+    "word":"سیب دور",
+    "category":"simple_single"
+  },
+  {
+    "word":"نقطه‌چین نامتقارن",
+    "category":"hard_compound"
+  },
+  {
+    "word":"سرمایه‌گذاری بلندمدت خارجی دور",
+    "category":"hard_compound"
+  },
+  {
+    "word":"به گربه گفتن زکی تاریک",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"درگیری‌های مرزی",
+    "category":"hard_compound"
+  },
+  {
+    "word":"تسلسل شب",
+    "category":"hard_single"
+  },
+  {
+    "word":"هر که بامش بیش، برفش بیشتر خاموش",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"میز خسته",
+    "category":"simple_single"
+  },
+  {
+    "word":"درخت خاموش",
+    "category":"simple_single"
+  },
+  {
+    "word":"دریا سریع",
+    "category":"simple_single"
+  },
+  {
+    "word":"نظام‌نامه",
+    "category":"hard_single"
+  },
+  {
+    "word":"تلفن همراه",
+    "category":"simple_compound"
+  },
+  {
+    "word":"خورشید پنهان",
+    "category":"simple_single"
+  },
+  {
+    "word":"مداد رنگی سریع",
+    "category":"simple_compound"
+  },
+  {
+    "word":"تضاد منافع اقتصادی قدیمی",
+    "category":"hard_compound"
+  },
+  {
+    "word":"تلفن همراه دور",
+    "category":"simple_compound"
+  },
+  {
+    "word":"سفر کاری دور",
+    "category":"simple_compound"
+  },
+  {
+    "word":"برنامه‌ریزی غیرخطی خاموش",
+    "category":"hard_compound"
+  },
+  {
+    "word":"کوه به کوه نمی‌رسد، آدم به آدم می‌رسد جدید",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"تا مرد سخن نگفته باشد، عیب و هنرش نهفته باشد جدید",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"دریا بی‌نور",
+    "category":"simple_single"
+  },
+  {
+    "word":"فروپاشی زیبا",
+    "category":"hard_single"
+  },
+  {
+    "word":"دی شیخ با چراغ همی‌گشت گرد شهر خسته",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"نظریه آشوب بلند",
+    "category":"hard_compound"
+  },
+  {
+    "word":"به گربه گفتن زکی بی‌نور",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"معادلات دیفرانسیل دور",
+    "category":"hard_compound"
+  },
+  {
+    "word":"آب در کوزه و ما تشنه‌لبان می‌گردیم زیبا",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"مدیریت بحران بین‌المللی جدید",
+    "category":"hard_compound"
+  },
+  {
+    "word":"دیوار بلند",
+    "category":"simple_single"
+  },
+  {
+    "word":"پروتکل‌های ارتباطی رمزگذاری‌شده بلند",
+    "category":"hard_compound"
+  },
+  {
+    "word":"نابهنجاری بی‌صدا",
+    "category":"hard_single"
+  },
+  {
+    "word":"برگ خاموش",
+    "category":"simple_single"
+  },
+  {
+    "word":"سرمایه‌گذاری بلندمدت خارجی",
+    "category":"hard_compound"
+  },
+  {
+    "word":"پروتکل‌های ارتباطی رمزگذاری‌شده جدید",
+    "category":"hard_compound"
+  },
+  {
+    "word":"پنجره خسته",
+    "category":"simple_single"
+  },
+  {
+    "word":"باران بلند",
+    "category":"simple_single"
+  },
+  {
+    "word":"هر چه سنگ است برای پای لنگ است آرام",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"درخت شب",
+    "category":"simple_single"
+  },
+  {
+    "word":"هر که بامش بیش، برفش بیشتر خسته",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"نظریه آشوب آرام",
+    "category":"hard_compound"
+  },
+  {
+    "word":"باد شب",
+    "category":"simple_single"
+  },
+  {
+    "word":"در نوشابه خاموش",
+    "category":"simple_compound"
+  },
+  {
+    "word":"پیش‌زمینه شب",
+    "category":"hard_single"
+  },
+  {
+    "word":"دستمال کاغذی جدید",
+    "category":"simple_compound"
+  },
+  {
+    "word":"دی شیخ با چراغ همی‌گشت گرد شهر پنهان",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"چتر بارانی قدیمی",
+    "category":"simple_compound"
+  },
+  {
+    "word":"تا مرد سخن نگفته باشد، عیب و هنرش نهفته باشد شب",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"برگ",
+    "category":"simple_single"
+  },
+  {
+    "word":"مکانیزم بلند",
+    "category":"hard_single"
+  },
+  {
+    "word":"تغییرات اقلیمی گسترده پنهان",
+    "category":"hard_compound"
+  },
+  {
+    "word":"باران پنهان",
+    "category":"simple_single"
+  },
+  {
+    "word":"نظریه آشوب عجیب",
+    "category":"hard_compound"
+  },
+  {
+    "word":"ساعت پنهان",
+    "category":"simple_single"
+  },
+  {
+    "word":"به یاد کسی، ز دیده خون دل می‌چکد بی‌صدا",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"در نوشابه روشن",
+    "category":"simple_compound"
+  },
+  {
+    "word":"شعاعی",
+    "category":"hard_single"
+  },
+  {
+    "word":"چراغ مطالعه بی‌صدا",
+    "category":"simple_compound"
+  },
+  {
+    "word":"سیب زیبا",
+    "category":"simple_single"
+  },
+  {
+    "word":"توسعه ناپایدار شهری پنهان",
+    "category":"hard_compound"
+  },
+  {
+    "word":"تحلیل",
+    "category":"hard_single"
+  },
+  {
+    "word":"پنجره شب",
+    "category":"simple_single"
+  },
+  {
+    "word":"مرغ همسایه غاز است شب",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"پنکه رومیزی روشن",
+    "category":"simple_compound"
+  },
+  {
+    "word":"کوه به کوه نمی‌رسد، آدم به آدم می‌رسد دور",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"خانه روشن",
+    "category":"simple_single"
+  },
+  {
+    "word":"نظام‌نامه قدیمی",
+    "category":"hard_single"
+  },
+  {
+    "word":"نه هر که چهره برافروخت دلبری داند جدید",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"رمزنگاری کلید عمومی قدیمی",
+    "category":"hard_compound"
+  },
+  {
+    "word":"کتاب درسی جدید",
+    "category":"simple_compound"
+  },
+  {
+    "word":"مداد رنگی خسته",
+    "category":"simple_compound"
+  },
+  {
+    "word":"دی شیخ با چراغ همی‌گشت گرد شهر بی‌نور",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"اضمحلال عجیب",
+    "category":"hard_single"
+  },
+  {
+    "word":"سرمایه‌گذاری بلندمدت خارجی سریع",
+    "category":"hard_compound"
+  },
+  {
+    "word":"برنامه‌ریزی غیرخطی شب",
+    "category":"hard_compound"
+  },
+  {
+    "word":"زنگ تلفن بی‌نور",
+    "category":"simple_compound"
+  },
+  {
+    "word":"باد بی‌نور",
+    "category":"simple_single"
+  },
+  {
+    "word":"سیاست‌گذاری بی‌نور",
+    "category":"hard_single"
+  },
+  {
+    "word":"آب در کوزه و ما تشنه‌لبان می‌گردیم آرام",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"خوش‌تر آن باشد که سر دلبران گفته آید در حدیث دیگران خسته",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"آب در کوزه و ما تشنه‌لبان می‌گردیم خسته",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"درخت قدیمی",
+    "category":"simple_single"
+  },
+  {
+    "word":"کفش ورزشی قدیمی",
+    "category":"simple_compound"
+  },
+  {
+    "word":"میز قدیمی",
+    "category":"simple_single"
+  },
+  {
+    "word":"برگ سریع",
+    "category":"simple_single"
+  },
+  {
+    "word":"به خلوتی بنشستم با دلبر و یار بی‌صدا",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"ماه",
+    "category":"simple_single"
+  },
+  {
+    "word":"دوچرخه بی‌صدا",
+    "category":"simple_single"
+  },
+  {
+    "word":"ساختارهای پیچیده ژنتیکی پنهان",
+    "category":"hard_compound"
+  },
+  {
+    "word":"برهم‌کنش‌های مولکولی روز",
+    "category":"hard_compound"
+  },
+  {
+    "word":"نه هر که چهره برافروخت دلبری داند بی‌نور",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"نقطه‌چین نامتقارن دور",
+    "category":"hard_compound"
+  },
+  {
+    "word":"سیاست‌گذاری روشن",
+    "category":"hard_single"
+  },
+  {
+    "word":"پنکه رومیزی بی‌صدا",
+    "category":"simple_compound"
+  },
+  {
+    "word":"دل به دل راه دارد روز",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"مکانیزم آرام",
+    "category":"hard_single"
+  },
+  {
+    "word":"کتاب قدیمی",
+    "category":"simple_single"
+  },
+  {
+    "word":"کتاب خاموش",
+    "category":"simple_single"
+  },
+  {
+    "word":"دیوار پنهان",
+    "category":"simple_single"
+  },
+  {
+    "word":"تسلسل بلند",
+    "category":"hard_single"
+  },
+  {
+    "word":"کفش نزدیک",
+    "category":"simple_single"
+  },
+  {
+    "word":"ترکیب‌پذیر خسته",
+    "category":"hard_single"
+  },
+  {
+    "word":"تسلسل دور",
+    "category":"hard_single"
+  },
+  {
+    "word":"باد عجیب",
+    "category":"simple_single"
+  },
+  {
+    "word":"قفل درب بی‌صدا",
+    "category":"simple_compound"
+  },
+  {
+    "word":"به گربه گفتن زکی قدیمی",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"کوه به کوه نمی‌رسد، آدم به آدم می‌رسد بلند",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"پیش‌زمینه بلند",
+    "category":"hard_single"
+  },
+  {
+    "word":"به گربه گفتن زکی دور",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"به یاد کسی، ز دیده خون دل می‌چکد بی‌نور",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"چتر بارانی خاموش",
+    "category":"simple_compound"
+  },
+  {
+    "word":"تحلیل شب",
+    "category":"hard_single"
+  },
+  {
+    "word":"هر که بامش بیش، برفش بیشتر دور",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"تسلسل خاموش",
+    "category":"hard_single"
+  },
+  {
+    "word":"بی‌نظمی آرام",
+    "category":"hard_single"
+  },
+  {
+    "word":"خورشید شب",
+    "category":"simple_single"
+  },
+  {
+    "word":"لباس راحتی پنهان",
+    "category":"simple_compound"
+  },
+  {
+    "word":"چراغ قدیمی",
+    "category":"simple_single"
+  },
+  {
+    "word":"هم‌افزایی قدیمی",
+    "category":"hard_single"
+  },
+  {
+    "word":"ترکیب‌پذیر نزدیک",
+    "category":"hard_single"
+  },
+  {
+    "word":"مرغ همسایه غاز است",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"تناقض دور",
+    "category":"hard_single"
+  },
+  {
+    "word":"کوه به کوه نمی‌رسد، آدم به آدم می‌رسد",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"هم‌افزایی نزدیک",
+    "category":"hard_single"
+  },
+  {
+    "word":"تحلیل سیستمی فرآیند قدیمی",
+    "category":"hard_compound"
+  },
+  {
+    "word":"تا تو با منی زمانه با من است زیبا",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"نقطه‌چین نامتقارن سریع",
+    "category":"hard_compound"
+  },
+  {
+    "word":"درخت دور",
+    "category":"simple_single"
+  },
+  {
+    "word":"هر چه سنگ است برای پای لنگ است سریع",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"تا مرد سخن نگفته باشد، عیب و هنرش نهفته باشد بلند",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"از تو حرکت، از خدا برکت دور",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"اختلاس",
+    "category":"hard_single"
+  },
+  {
+    "word":"رمزنگاری کلید عمومی نزدیک",
+    "category":"hard_compound"
+  },
+  {
+    "word":"مداد رنگی تاریک",
+    "category":"simple_compound"
+  },
+  {
+    "word":"مخمصه پنهان",
+    "category":"hard_single"
+  },
+  {
+    "word":"خورشید دور",
+    "category":"simple_single"
+  },
+  {
+    "word":"ساعت جدید",
+    "category":"simple_single"
+  },
+  {
+    "word":"سرمایه‌گذاری بلندمدت خارجی قدیمی",
+    "category":"hard_compound"
+  },
+  {
+    "word":"درگیری‌های مرزی زیبا",
+    "category":"hard_compound"
+  },
+  {
+    "word":"شبکه‌های توزیع نامتقارن",
+    "category":"hard_compound"
+  },
+  {
+    "word":"محرمانه پنهان",
+    "category":"hard_single"
+  },
+  {
+    "word":"نه هر که چهره برافروخت دلبری داند روز",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"تا تو با منی زمانه با من است نزدیک",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"تسلسل خسته",
+    "category":"hard_single"
+  },
+  {
+    "word":"نابهنجاری",
+    "category":"hard_single"
+  },
+  {
+    "word":"نظریه آشوب روشن",
+    "category":"hard_compound"
+  },
+  {
+    "word":"تضاد منافع اقتصادی",
+    "category":"hard_compound"
+  },
+  {
+    "word":"کفش تاریک",
+    "category":"simple_single"
+  },
+  {
+    "word":"بازدارنده روز",
+    "category":"hard_single"
+  },
+  {
+    "word":"فروپاشی پنهان",
+    "category":"hard_single"
+  },
+  {
+    "word":"ساعت روز",
+    "category":"simple_single"
+  },
+  {
+    "word":"معادلات دیفرانسیل عجیب",
+    "category":"hard_compound"
+  },
+  {
+    "word":"باد",
+    "category":"simple_single"
+  },
+  {
+    "word":"دیوار روشن",
+    "category":"simple_single"
+  },
+  {
+    "word":"آب در کوزه و ما تشنه‌لبان می‌گردیم جدید",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"تحلیل سیستمی فرآیند خسته",
+    "category":"hard_compound"
+  },
+  {
+    "word":"نظریه آشوب تاریک",
+    "category":"hard_compound"
+  },
+  {
+    "word":"مخمصه عجیب",
+    "category":"hard_single"
+  },
+  {
+    "word":"رمزنگاری کلید عمومی پنهان",
+    "category":"hard_compound"
+  },
+  {
+    "word":"دستمال کاغذی نزدیک",
+    "category":"simple_compound"
+  },
+  {
+    "word":"نظام‌نامه خاموش",
+    "category":"hard_single"
+  },
+  {
+    "word":"برنامه‌ریزی غیرخطی بلند",
+    "category":"hard_compound"
+  },
+  {
+    "word":"وابستگی متقابل سازمانی پنهان",
+    "category":"hard_compound"
+  },
+  {
+    "word":"قلم خودکار بلند",
+    "category":"simple_compound"
+  },
+  {
+    "word":"شتر دیدی ندیدی روز",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"برگ بی‌صدا",
+    "category":"simple_single"
+  },
+  {
+    "word":"از تو حرکت، از خدا برکت روشن",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"برگ شب",
+    "category":"simple_single"
+  },
+  {
+    "word":"هم‌افزایی پنهان",
+    "category":"hard_single"
+  },
+  {
+    "word":"ماه بی‌نور",
+    "category":"simple_single"
+  },
+  {
+    "word":"پوشه مدارک سریع",
+    "category":"simple_compound"
+  },
+  {
+    "word":"باد قدیمی",
+    "category":"simple_single"
+  },
+  {
+    "word":"پوشه مدارک",
+    "category":"simple_compound"
+  },
+  {
+    "word":"آب در کوزه و ما تشنه‌لبان می‌گردیم شب",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"کیف دستی خاموش",
+    "category":"simple_compound"
+  },
+  {
+    "word":"توسعه ناپایدار شهری خسته",
+    "category":"hard_compound"
+  },
+  {
+    "word":"شام خانوادگی قدیمی",
+    "category":"simple_compound"
+  },
+  {
+    "word":"مخمصه خاموش",
+    "category":"hard_single"
+  },
+  {
+    "word":"برهم‌کنش‌های مولکولی جدید",
+    "category":"hard_compound"
+  },
+  {
+    "word":"نظریه آشوب جدید",
+    "category":"hard_compound"
+  },
+  {
+    "word":"به یاد کسی، ز دیده خون دل می‌چکد زیبا",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"بی‌نظمی قدیمی",
+    "category":"hard_single"
+  },
+  {
+    "word":"به گربه گفتن زکی بی‌صدا",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"نظریه آشوب بی‌نور",
+    "category":"hard_compound"
+  },
+  {
+    "word":"محرمانه نزدیک",
+    "category":"hard_single"
+  },
+  {
+    "word":"مخمصه قدیمی",
+    "category":"hard_single"
+  },
+  {
+    "word":"برهم‌کنش‌های مولکولی خاموش",
+    "category":"hard_compound"
+  },
+  {
+    "word":"قفل درب جدید",
+    "category":"simple_compound"
+  },
+  {
+    "word":"به گربه گفتن زکی خسته",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"گل بلند",
+    "category":"simple_single"
+  },
+  {
+    "word":"خانه نزدیک",
+    "category":"simple_single"
+  },
+  {
+    "word":"دیوار سریع",
+    "category":"simple_single"
+  },
+  {
+    "word":"گل پنهان",
+    "category":"simple_single"
+  },
+  {
+    "word":"نقطه‌چین نامتقارن پنهان",
+    "category":"hard_compound"
+  },
+  {
+    "word":"ساختار شکنی ذهنی",
+    "category":"hard_compound"
+  },
+  {
+    "word":"تضاد منافع اقتصادی عجیب",
+    "category":"hard_compound"
+  },
+  {
+    "word":"در نوشابه دور",
+    "category":"simple_compound"
+  },
+  {
+    "word":"فشار روانی شدید",
+    "category":"hard_compound"
+  },
+  {
+    "word":"تحلیل خسته",
+    "category":"hard_single"
+  },
+  {
+    "word":"تحلیل تاریک",
+    "category":"hard_single"
+  },
+  {
+    "word":"پنجره پنهان",
+    "category":"simple_single"
+  },
+  {
+    "word":"کتاب پنهان",
+    "category":"simple_single"
+  },
+  {
+    "word":"پوشه مدارک نزدیک",
+    "category":"simple_compound"
+  },
+  {
+    "word":"باران خسته",
+    "category":"simple_single"
+  },
+  {
+    "word":"پوشه مدارک عجیب",
+    "category":"simple_compound"
+  },
+  {
+    "word":"آب در کوزه و ما تشنه‌لبان می‌گردیم بلند",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"سرمایه‌گذاری بلندمدت خارجی بلند",
+    "category":"hard_compound"
+  },
+  {
+    "word":"آب در کوزه و ما تشنه‌لبان می‌گردیم پنهان",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"نه هر که چهره برافروخت دلبری داند خسته",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"آتش بلند",
+    "category":"simple_single"
+  },
+  {
+    "word":"دستمال کاغذی دور",
+    "category":"simple_compound"
+  },
+  {
+    "word":"اضمحلال بی‌صدا",
+    "category":"hard_single"
+  },
+  {
+    "word":"تسلسل عجیب",
+    "category":"hard_single"
+  },
+  {
+    "word":"مدیریت بحران بین‌المللی قدیمی",
+    "category":"hard_compound"
+  },
+  {
+    "word":"خوش‌تر آن باشد که سر دلبران گفته آید در حدیث دیگران زیبا",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"توسعه ناپایدار شهری عجیب",
+    "category":"hard_compound"
+  },
+  {
+    "word":"چراغ مطالعه جدید",
+    "category":"simple_compound"
+  },
+  {
+    "word":"فرآیند تصمیم‌گیری پیچیده خاموش",
+    "category":"hard_compound"
+  },
+  {
+    "word":"تخته سفید بی‌صدا",
+    "category":"simple_compound"
+  },
+  {
+    "word":"جایگاه آرام",
+    "category":"hard_single"
+  },
+  {
+    "word":"ساختار شکنی ذهنی عجیب",
+    "category":"hard_compound"
+  },
+  {
+    "word":"دریا",
+    "category":"simple_single"
+  },
+  {
+    "word":"تناقض روشن",
+    "category":"hard_single"
+  },
+  {
+    "word":"سیاست‌گذاری جدید",
+    "category":"hard_single"
+  },
+  {
+    "word":"به گربه گفتن زکی جدید",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"لباس راحتی",
+    "category":"simple_compound"
+  },
+  {
+    "word":"توسعه ناپایدار شهری شب",
+    "category":"hard_compound"
+  },
+  {
+    "word":"باد سریع",
+    "category":"simple_single"
+  },
+  {
+    "word":"به خلوتی بنشستم با دلبر و یار بلند",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"ماه پنهان",
+    "category":"simple_single"
+  },
+  {
+    "word":"تخته سفید شب",
+    "category":"simple_compound"
+  },
+  {
+    "word":"آب که یک‌جا بماند، می‌گندد روشن",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"باد تاریک",
+    "category":"simple_single"
+  },
+  {
+    "word":"چراغ دور",
+    "category":"simple_single"
+  },
+  {
+    "word":"دیوار عجیب",
+    "category":"simple_single"
+  },
+  {
+    "word":"شعاعی آرام",
+    "category":"hard_single"
+  },
+  {
+    "word":"دل داده‌ام بر باد، بر هر چه بادا باد خسته",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"چتر بارانی آرام",
+    "category":"simple_compound"
+  },
+  {
+    "word":"پیراهن عجیب",
+    "category":"simple_single"
+  },
+  {
+    "word":"جایگاه روشن",
+    "category":"hard_single"
+  },
+  {
+    "word":"برنامه‌ریزی غیرخطی",
+    "category":"hard_compound"
+  },
+  {
+    "word":"هم‌افزایی جدید",
+    "category":"hard_single"
+  },
+  {
+    "word":"تناقض روز",
+    "category":"hard_single"
+  },
+  {
+    "word":"لباس راحتی بلند",
+    "category":"simple_compound"
+  },
+  {
+    "word":"معادلات دیفرانسیل جدید",
+    "category":"hard_compound"
+  },
+  {
+    "word":"توسعه ناپایدار شهری دور",
+    "category":"hard_compound"
+  },
+  {
+    "word":"آب که یک‌جا بماند، می‌گندد نزدیک",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"چراغ آرام",
+    "category":"simple_single"
+  },
+  {
+    "word":"قفل درب آرام",
+    "category":"simple_compound"
+  },
+  {
+    "word":"میز",
+    "category":"simple_single"
+  },
+  {
+    "word":"پلاسمای خون پنهان",
+    "category":"hard_single"
+  },
+  {
+    "word":"تلفن همراه سریع",
+    "category":"simple_compound"
+  },
+  {
+    "word":"شبکه‌های توزیع نامتقارن تاریک",
+    "category":"hard_compound"
+  },
+  {
+    "word":"فرآیند تصمیم‌گیری پیچیده بی‌صدا",
+    "category":"hard_compound"
+  },
+  {
+    "word":"میز بی‌نور",
+    "category":"simple_single"
+  },
+  {
+    "word":"خوش‌تر آن باشد که سر دلبران گفته آید در حدیث دیگران خاموش",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"تضاد منافع اقتصادی خاموش",
+    "category":"hard_compound"
+  },
+  {
+    "word":"رمزنگاری کلید عمومی عجیب",
+    "category":"hard_compound"
+  },
+  {
+    "word":"قفل درب عجیب",
+    "category":"simple_compound"
+  },
+  {
+    "word":"نقطه‌چین نامتقارن قدیمی",
+    "category":"hard_compound"
+  },
+  {
+    "word":"قلم خودکار خسته",
+    "category":"simple_compound"
+  },
+  {
+    "word":"باران دور",
+    "category":"simple_single"
+  },
+  {
+    "word":"تغییرات اقلیمی گسترده بی‌نور",
+    "category":"hard_compound"
+  },
+  {
+    "word":"تناقض آرام",
+    "category":"hard_single"
+  },
+  {
+    "word":"مخمصه نزدیک",
+    "category":"hard_single"
+  },
+  {
+    "word":"فرآیند تصمیم‌گیری پیچیده جدید",
+    "category":"hard_compound"
+  },
+  {
+    "word":"قلم خودکار بی‌نور",
+    "category":"simple_compound"
+  },
+  {
+    "word":"فرآیند تصمیم‌گیری پیچیده",
+    "category":"hard_compound"
+  },
+  {
+    "word":"چراغ مطالعه روز",
+    "category":"simple_compound"
+  },
+  {
+    "word":"تا تو با منی زمانه با من است",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"آتش شب",
+    "category":"simple_single"
+  },
+  {
+    "word":"سفر کاری روشن",
+    "category":"simple_compound"
+  },
+  {
+    "word":"نظام‌نامه پنهان",
+    "category":"hard_single"
+  },
+  {
+    "word":"هر که بامش بیش، برفش بیشتر بی‌صدا",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"دوچرخه جدید",
+    "category":"simple_single"
+  },
+  {
+    "word":"اختلاس زیبا",
+    "category":"hard_single"
+  },
+  {
+    "word":"ترکیب‌پذیر بلند",
+    "category":"hard_single"
+  },
+  {
+    "word":"باد نزدیک",
+    "category":"simple_single"
+  },
+  {
+    "word":"شبکه‌های توزیع نامتقارن شب",
+    "category":"hard_compound"
+  },
+  {
+    "word":"رمزنگاری کلید عمومی بلند",
+    "category":"hard_compound"
+  },
+  {
+    "word":"برگ قدیمی",
+    "category":"simple_single"
+  },
+  {
+    "word":"کتاب نزدیک",
+    "category":"simple_single"
+  },
+  {
+    "word":"پنکه رومیزی سریع",
+    "category":"simple_compound"
+  },
+  {
+    "word":"دل داده‌ام بر باد، بر هر چه بادا باد عجیب",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"از تو حرکت، از خدا برکت زیبا",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"فشار روانی شدید آرام",
+    "category":"hard_compound"
+  },
+  {
+    "word":"آب در کوزه و ما تشنه‌لبان می‌گردیم بی‌صدا",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"دوچرخه",
+    "category":"simple_single"
+  },
+  {
+    "word":"تحلیل سیستمی فرآیند سریع",
+    "category":"hard_compound"
+  },
+  {
+    "word":"شبکه‌های توزیع نامتقارن سریع",
+    "category":"hard_compound"
+  },
+  {
+    "word":"بازدارنده خسته",
+    "category":"hard_single"
+  },
+  {
+    "word":"دستمال کاغذی بی‌نور",
+    "category":"simple_compound"
+  },
+  {
+    "word":"هم‌افزایی بی‌صدا",
+    "category":"hard_single"
+  },
+  {
+    "word":"فرآیند تصمیم‌گیری پیچیده سریع",
+    "category":"hard_compound"
+  },
+  {
+    "word":"تناقض بی‌نور",
+    "category":"hard_single"
+  },
+  {
+    "word":"هر چه سنگ است برای پای لنگ است خسته",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"از تو حرکت، از خدا برکت پنهان",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"پروتکل‌های ارتباطی رمزگذاری‌شده بی‌نور",
+    "category":"hard_compound"
+  },
+  {
+    "word":"کارت بانکی خسته",
+    "category":"simple_compound"
+  },
+  {
+    "word":"شبکه‌های توزیع نامتقارن نزدیک",
+    "category":"hard_compound"
+  },
+  {
+    "word":"کفش ورزشی بی‌نور",
+    "category":"simple_compound"
+  },
+  {
+    "word":"تحلیل بلند",
+    "category":"hard_single"
+  },
+  {
+    "word":"مداد رنگی شب",
+    "category":"simple_compound"
+  },
+  {
+    "word":"وابستگی متقابل سازمانی بی‌صدا",
+    "category":"hard_compound"
+  },
+  {
+    "word":"چراغ مطالعه روشن",
+    "category":"simple_compound"
+  },
+  {
+    "word":"شتر دیدی ندیدی سریع",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"شتر دیدی ندیدی پنهان",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"تا مرد سخن نگفته باشد، عیب و هنرش نهفته باشد",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"هر چه سنگ است برای پای لنگ است نزدیک",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"تسلسل قدیمی",
+    "category":"hard_single"
+  },
+  {
+    "word":"کوه به کوه نمی‌رسد، آدم به آدم می‌رسد پنهان",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"ساختارهای پیچیده ژنتیکی بلند",
+    "category":"hard_compound"
+  },
+  {
+    "word":"مرغ همسایه غاز است تاریک",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"اختلاس بی‌نور",
+    "category":"hard_single"
+  },
+  {
+    "word":"تخته سفید",
+    "category":"simple_compound"
+  },
+  {
+    "word":"دل داده‌ام بر باد، بر هر چه بادا باد سریع",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"جایگاه",
+    "category":"hard_single"
+  },
+  {
+    "word":"پوشه مدارک خاموش",
+    "category":"simple_compound"
+  },
+  {
+    "word":"چراغ مطالعه بی‌نور",
+    "category":"simple_compound"
+  },
+  {
+    "word":"ترکیب‌پذیر بی‌صدا",
+    "category":"hard_single"
+  },
+  {
+    "word":"تحلیل روشن",
+    "category":"hard_single"
+  },
+  {
+    "word":"تلفن همراه بی‌صدا",
+    "category":"simple_compound"
+  },
+  {
+    "word":"پیش‌زمینه",
+    "category":"hard_single"
+  },
+  {
+    "word":"پروتکل‌های ارتباطی رمزگذاری‌شده آرام",
+    "category":"hard_compound"
+  },
+  {
+    "word":"دل داده‌ام بر باد، بر هر چه بادا باد دور",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"وابستگی متقابل سازمانی نزدیک",
+    "category":"hard_compound"
+  },
+  {
+    "word":"سیب بلند",
+    "category":"simple_single"
+  },
+  {
+    "word":"هم‌افزایی روز",
+    "category":"hard_single"
+  },
+  {
+    "word":"تخته سفید قدیمی",
+    "category":"simple_compound"
+  },
+  {
+    "word":"تناقض بلند",
+    "category":"hard_single"
+  },
+  {
+    "word":"پوشه مدارک بی‌صدا",
+    "category":"simple_compound"
+  },
+  {
+    "word":"تحلیل جدید",
+    "category":"hard_single"
+  },
+  {
+    "word":"تضاد منافع اقتصادی آرام",
+    "category":"hard_compound"
+  },
+  {
+    "word":"برهم‌کنش‌های مولکولی خسته",
+    "category":"hard_compound"
+  },
+  {
+    "word":"چتر بارانی بلند",
+    "category":"simple_compound"
+  },
+  {
+    "word":"آب که یک‌جا بماند، می‌گندد سریع",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"لباس راحتی تاریک",
+    "category":"simple_compound"
+  },
+  {
+    "word":"مدیریت بحران بین‌المللی",
+    "category":"hard_compound"
+  },
+  {
+    "word":"به خلوتی بنشستم با دلبر و یار پنهان",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"دریا پنهان",
+    "category":"simple_single"
+  },
+  {
+    "word":"نظام‌نامه تاریک",
+    "category":"hard_single"
+  },
+  {
+    "word":"چراغ مطالعه",
+    "category":"simple_compound"
+  },
+  {
+    "word":"سیب جدید",
+    "category":"simple_single"
+  },
+  {
+    "word":"چو ایران نباشد تن من مباد روشن",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"پلاسمای خون روز",
+    "category":"hard_single"
+  },
+  {
+    "word":"برهم‌کنش‌های مولکولی روشن",
+    "category":"hard_compound"
+  },
+  {
+    "word":"ساختار شکنی ذهنی سریع",
+    "category":"hard_compound"
+  },
+  {
+    "word":"دوچرخه نزدیک",
+    "category":"simple_single"
+  },
+  {
+    "word":"ساعت دور",
+    "category":"simple_single"
+  },
+  {
+    "word":"شام خانوادگی جدید",
+    "category":"simple_compound"
+  },
+  {
+    "word":"خانه خسته",
+    "category":"simple_single"
+  },
+  {
+    "word":"باد بلند",
+    "category":"simple_single"
+  },
+  {
+    "word":"فشار روانی شدید جدید",
+    "category":"hard_compound"
+  },
+  {
+    "word":"قلم خودکار دور",
+    "category":"simple_compound"
+  },
+  {
+    "word":"رمزنگاری کلید عمومی بی‌نور",
+    "category":"hard_compound"
+  },
+  {
+    "word":"نظام‌نامه سریع",
+    "category":"hard_single"
+  },
+  {
+    "word":"وابستگی متقابل سازمانی عجیب",
+    "category":"hard_compound"
+  },
+  {
+    "word":"پنکه رومیزی زیبا",
+    "category":"simple_compound"
+  },
+  {
+    "word":"چراغ جدید",
+    "category":"simple_single"
+  },
+  {
+    "word":"چتر بارانی سریع",
+    "category":"simple_compound"
+  },
+  {
+    "word":"پوشه مدارک قدیمی",
+    "category":"simple_compound"
+  },
+  {
+    "word":"خورشید",
+    "category":"simple_single"
+  },
+  {
+    "word":"هر که طاووس خواهد، جور هندوستان کشد تاریک",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"معادلات دیفرانسیل نزدیک",
+    "category":"hard_compound"
+  },
+  {
+    "word":"به یاد کسی، ز دیده خون دل می‌چکد تاریک",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"برگ آرام",
+    "category":"simple_single"
+  },
+  {
+    "word":"چو ایران نباشد تن من مباد زیبا",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"دیوار بی‌نور",
+    "category":"simple_single"
+  },
+  {
+    "word":"از تو حرکت، از خدا برکت تاریک",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"پیراهن بلند",
+    "category":"simple_single"
+  },
+  {
+    "word":"درخت جدید",
+    "category":"simple_single"
+  },
+  {
+    "word":"چراغ مطالعه عجیب",
+    "category":"simple_compound"
+  },
+  {
+    "word":"به گربه گفتن زکی شب",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"چراغ مطالعه زیبا",
+    "category":"simple_compound"
+  },
+  {
+    "word":"مرغ همسایه غاز است زیبا",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"توسعه ناپایدار شهری بی‌صدا",
+    "category":"hard_compound"
+  },
+  {
+    "word":"بی‌نظمی سریع",
+    "category":"hard_single"
+  },
+  {
+    "word":"هر که بامش بیش، برفش بیشتر روشن",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"قفل درب روز",
+    "category":"simple_compound"
+  },
+  {
+    "word":"پیش‌زمینه خسته",
+    "category":"hard_single"
+  },
+  {
+    "word":"سیب",
+    "category":"simple_single"
+  },
+  {
+    "word":"برهم‌کنش‌های مولکولی",
+    "category":"hard_compound"
+  },
+  {
+    "word":"دل داده‌ام بر باد، بر هر چه بادا باد روشن",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"اضمحلال خسته",
+    "category":"hard_single"
+  },
+  {
+    "word":"سفر کاری آرام",
+    "category":"simple_compound"
+  },
+  {
+    "word":"تضاد منافع اقتصادی بی‌صدا",
+    "category":"hard_compound"
+  },
+  {
+    "word":"دی شیخ با چراغ همی‌گشت گرد شهر تاریک",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"دل به دل راه دارد پنهان",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"سرمایه‌گذاری بلندمدت خارجی روشن",
+    "category":"hard_compound"
+  },
+  {
+    "word":"قفل درب بلند",
+    "category":"simple_compound"
+  },
+  {
+    "word":"پیش‌زمینه روشن",
+    "category":"hard_single"
+  },
+  {
+    "word":"ساختار شکنی ذهنی زیبا",
+    "category":"hard_compound"
+  },
+  {
+    "word":"میز خاموش",
+    "category":"simple_single"
+  },
+  {
+    "word":"به یاد کسی، ز دیده خون دل می‌چکد",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"میز پنهان",
+    "category":"simple_single"
+  },
+  {
+    "word":"آتش قدیمی",
+    "category":"simple_single"
+  },
+  {
+    "word":"درخت تاریک",
+    "category":"simple_single"
+  },
+  {
+    "word":"کفش روز",
+    "category":"simple_single"
+  },
+  {
+    "word":"دریا شب",
+    "category":"simple_single"
+  },
+  {
+    "word":"ساختارهای پیچیده ژنتیکی بی‌نور",
+    "category":"hard_compound"
+  },
+  {
+    "word":"پروتکل‌های ارتباطی رمزگذاری‌شده تاریک",
+    "category":"hard_compound"
+  },
+  {
+    "word":"دل داده‌ام بر باد، بر هر چه بادا باد بی‌صدا",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"فرآیند تصمیم‌گیری پیچیده آرام",
+    "category":"hard_compound"
+  },
+  {
+    "word":"قفل درب روشن",
+    "category":"simple_compound"
+  },
+  {
+    "word":"درگیری‌های مرزی نزدیک",
+    "category":"hard_compound"
+  },
+  {
+    "word":"خورشید عجیب",
+    "category":"simple_single"
+  },
+  {
+    "word":"تحلیل آرام",
+    "category":"hard_single"
+  },
+  {
+    "word":"کتاب زیبا",
+    "category":"simple_single"
+  },
+  {
+    "word":"از تو حرکت، از خدا برکت جدید",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"نقطه‌چین نامتقارن تاریک",
+    "category":"hard_compound"
+  },
+  {
+    "word":"شعاعی خسته",
+    "category":"hard_single"
+  },
+  {
+    "word":"پروتکل‌های ارتباطی رمزگذاری‌شده خسته",
+    "category":"hard_compound"
+  },
+  {
+    "word":"تغییرات اقلیمی گسترده شب",
+    "category":"hard_compound"
+  },
+  {
+    "word":"دیوار بی‌صدا",
+    "category":"simple_single"
+  },
+  {
+    "word":"کفش دور",
+    "category":"simple_single"
+  },
+  {
+    "word":"کتاب درسی روز",
+    "category":"simple_compound"
+  },
+  {
+    "word":"دستمال کاغذی پنهان",
+    "category":"simple_compound"
+  },
+  {
+    "word":"خانه پنهان",
+    "category":"simple_single"
+  },
+  {
+    "word":"اختلاس بی‌صدا",
+    "category":"hard_single"
+  },
+  {
+    "word":"کفش پنهان",
+    "category":"simple_single"
+  },
+  {
+    "word":"درخت پنهان",
+    "category":"simple_single"
+  },
+  {
+    "word":"دستمال کاغذی",
+    "category":"simple_compound"
+  },
+  {
+    "word":"کتاب درسی نزدیک",
+    "category":"simple_compound"
+  },
+  {
+    "word":"مخمصه روشن",
+    "category":"hard_single"
+  },
+  {
+    "word":"مدیریت بحران بین‌المللی روز",
+    "category":"hard_compound"
+  },
+  {
+    "word":"تلفن همراه خاموش",
+    "category":"simple_compound"
+  },
+  {
+    "word":"پیراهن جدید",
+    "category":"simple_single"
+  },
+  {
+    "word":"مکانیزم روز",
+    "category":"hard_single"
+  },
+  {
+    "word":"محرمانه خسته",
+    "category":"hard_single"
+  },
+  {
+    "word":"خانه روز",
+    "category":"simple_single"
+  },
+  {
+    "word":"شبکه‌های توزیع نامتقارن زیبا",
+    "category":"hard_compound"
+  },
+  {
+    "word":"خوش‌تر آن باشد که سر دلبران گفته آید در حدیث دیگران شب",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"جایگاه روز",
+    "category":"hard_single"
+  },
+  {
+    "word":"دوچرخه تاریک",
+    "category":"simple_single"
+  },
+  {
+    "word":"فشار روانی شدید دور",
+    "category":"hard_compound"
+  },
+  {
+    "word":"نابهنجاری بلند",
+    "category":"hard_single"
+  },
+  {
+    "word":"درگیری‌های مرزی عجیب",
+    "category":"hard_compound"
+  },
+  {
+    "word":"دوچرخه عجیب",
+    "category":"simple_single"
+  },
+  {
+    "word":"دریا خسته",
+    "category":"simple_single"
+  },
+  {
+    "word":"شعاعی بی‌صدا",
+    "category":"hard_single"
+  },
+  {
+    "word":"فروپاشی روز",
+    "category":"hard_single"
+  },
+  {
+    "word":"درخت عجیب",
+    "category":"simple_single"
+  },
+  {
+    "word":"سیب شب",
+    "category":"simple_single"
+  },
+  {
+    "word":"به خلوتی بنشستم با دلبر و یار آرام",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"به خلوتی بنشستم با دلبر و یار تاریک",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"پلاسمای خون نزدیک",
+    "category":"hard_single"
+  },
+  {
+    "word":"گل نزدیک",
+    "category":"simple_single"
+  },
+  {
+    "word":"توسعه ناپایدار شهری",
+    "category":"hard_compound"
+  },
+  {
+    "word":"دیوار خسته",
+    "category":"simple_single"
+  },
+  {
+    "word":"بی‌نظمی پنهان",
+    "category":"hard_single"
+  },
+  {
+    "word":"به گربه گفتن زکی",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"برهم‌کنش‌های مولکولی نزدیک",
+    "category":"hard_compound"
+  },
+  {
+    "word":"دی شیخ با چراغ همی‌گشت گرد شهر قدیمی",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"قفل درب خاموش",
+    "category":"simple_compound"
+  },
+  {
+    "word":"آب که یک‌جا بماند، می‌گندد عجیب",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"چو ایران نباشد تن من مباد جدید",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"اضمحلال روز",
+    "category":"hard_single"
+  },
+  {
+    "word":"نابهنجاری زیبا",
+    "category":"hard_single"
+  },
+  {
+    "word":"برگ نزدیک",
+    "category":"simple_single"
+  },
+  {
+    "word":"سیب عجیب",
+    "category":"simple_single"
+  },
+  {
+    "word":"ترکیب‌پذیر خاموش",
+    "category":"hard_single"
+  },
+  {
+    "word":"بی‌نظمی",
+    "category":"hard_single"
+  },
+  {
+    "word":"هم‌افزایی",
+    "category":"hard_single"
+  },
+  {
+    "word":"پیش‌زمینه تاریک",
+    "category":"hard_single"
+  },
+  {
+    "word":"نظریه آشوب نزدیک",
+    "category":"hard_compound"
+  },
+  {
+    "word":"کتاب بی‌نور",
+    "category":"simple_single"
+  },
+  {
+    "word":"لباس راحتی دور",
+    "category":"simple_compound"
+  },
+  {
+    "word":"چراغ",
+    "category":"simple_single"
+  },
+  {
+    "word":"تا تو با منی زمانه با من است خاموش",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"هر چه سنگ است برای پای لنگ است جدید",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"در نوشابه بی‌نور",
+    "category":"simple_compound"
+  },
+  {
+    "word":"در نوشابه جدید",
+    "category":"simple_compound"
+  },
+  {
+    "word":"اضمحلال پنهان",
+    "category":"hard_single"
+  },
+  {
+    "word":"برهم‌کنش‌های مولکولی سریع",
+    "category":"hard_compound"
+  },
+  {
+    "word":"سیاست‌گذاری نزدیک",
+    "category":"hard_single"
+  },
+  {
+    "word":"دیوار قدیمی",
+    "category":"simple_single"
+  },
+  {
+    "word":"تغییرات اقلیمی گسترده سریع",
+    "category":"hard_compound"
+  },
+  {
+    "word":"مداد رنگی زیبا",
+    "category":"simple_compound"
+  },
+  {
+    "word":"پلاسمای خون دور",
+    "category":"hard_single"
+  },
+  {
+    "word":"کتاب درسی دور",
+    "category":"simple_compound"
+  },
+  {
+    "word":"زنگ تلفن",
+    "category":"simple_compound"
+  },
+  {
+    "word":"دی شیخ با چراغ همی‌گشت گرد شهر دور",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"گل",
+    "category":"simple_single"
+  },
+  {
+    "word":"هم‌افزایی بلند",
+    "category":"hard_single"
+  },
+  {
+    "word":"تا تو با منی زمانه با من است پنهان",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"فروپاشی",
+    "category":"hard_single"
+  },
+  {
+    "word":"دیوار جدید",
+    "category":"simple_single"
+  },
+  {
+    "word":"پیش‌زمینه خاموش",
+    "category":"hard_single"
+  },
+  {
+    "word":"چتر بارانی خسته",
+    "category":"simple_compound"
+  },
+  {
+    "word":"نظریه آشوب خسته",
+    "category":"hard_compound"
+  },
+  {
+    "word":"اختلاس روشن",
+    "category":"hard_single"
+  },
+  {
+    "word":"اختلاس نزدیک",
+    "category":"hard_single"
+  },
+  {
+    "word":"باران سریع",
+    "category":"simple_single"
+  },
+  {
+    "word":"دل داده‌ام بر باد، بر هر چه بادا باد روز",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"مداد رنگی بی‌صدا",
+    "category":"simple_compound"
+  },
+  {
+    "word":"نابهنجاری عجیب",
+    "category":"hard_single"
+  },
+  {
+    "word":"چتر بارانی بی‌صدا",
+    "category":"simple_compound"
+  },
+  {
+    "word":"خوش‌تر آن باشد که سر دلبران گفته آید در حدیث دیگران روشن",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"لباس راحتی روشن",
+    "category":"simple_compound"
+  },
+  {
+    "word":"ماه زیبا",
+    "category":"simple_single"
+  },
+  {
+    "word":"لباس راحتی نزدیک",
+    "category":"simple_compound"
+  },
+  {
+    "word":"آب در کوزه و ما تشنه‌لبان می‌گردیم بی‌نور",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"دل به دل راه دارد بی‌صدا",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"در نوشابه آرام",
+    "category":"simple_compound"
+  },
+  {
+    "word":"پوشه مدارک خسته",
+    "category":"simple_compound"
+  },
+  {
+    "word":"جایگاه خسته",
+    "category":"hard_single"
+  },
+  {
+    "word":"پیش‌زمینه روز",
+    "category":"hard_single"
+  },
+  {
+    "word":"نظریه آشوب",
+    "category":"hard_compound"
+  },
+  {
+    "word":"دستمال کاغذی قدیمی",
+    "category":"simple_compound"
+  },
+  {
+    "word":"کتاب درسی تاریک",
+    "category":"simple_compound"
+  },
+  {
+    "word":"آب معدنی قدیمی",
+    "category":"simple_compound"
+  },
+  {
+    "word":"آب که یک‌جا بماند، می‌گندد خاموش",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"کتاب سریع",
+    "category":"simple_single"
+  },
+  {
+    "word":"تخته سفید آرام",
+    "category":"simple_compound"
+  },
+  {
+    "word":"کوه به کوه نمی‌رسد، آدم به آدم می‌رسد قدیمی",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"آتش",
+    "category":"simple_single"
+  },
+  {
+    "word":"تا مرد سخن نگفته باشد، عیب و هنرش نهفته باشد خاموش",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"توسعه ناپایدار شهری جدید",
+    "category":"hard_compound"
+  },
+  {
+    "word":"نظریه آشوب دور",
+    "category":"hard_compound"
+  },
+  {
+    "word":"برنامه‌ریزی غیرخطی پنهان",
+    "category":"hard_compound"
+  },
+  {
+    "word":"اختلاس سریع",
+    "category":"hard_single"
+  },
+  {
+    "word":"باران",
+    "category":"simple_single"
+  },
+  {
+    "word":"نه هر که چهره برافروخت دلبری داند زیبا",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"پنکه رومیزی شب",
+    "category":"simple_compound"
+  },
+  {
+    "word":"برنامه‌ریزی غیرخطی عجیب",
+    "category":"hard_compound"
+  },
+  {
+    "word":"پلاسمای خون بی‌نور",
+    "category":"hard_single"
+  },
+  {
+    "word":"تلفن همراه شب",
+    "category":"simple_compound"
+  },
+  {
+    "word":"کفش بلند",
+    "category":"simple_single"
+  },
+  {
+    "word":"به خلوتی بنشستم با دلبر و یار خاموش",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"آب معدنی جدید",
+    "category":"simple_compound"
+  },
+  {
+    "word":"باد خاموش",
+    "category":"simple_single"
+  },
+  {
+    "word":"آب در کوزه و ما تشنه‌لبان می‌گردیم",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"خانه عجیب",
+    "category":"simple_single"
+  },
+  {
+    "word":"کفش ورزشی نزدیک",
+    "category":"simple_compound"
+  },
+  {
+    "word":"مکانیزم خسته",
+    "category":"hard_single"
+  },
+  {
+    "word":"پیراهن بی‌صدا",
+    "category":"simple_single"
+  },
+  {
+    "word":"کارت بانکی بی‌نور",
+    "category":"simple_compound"
+  },
+  {
+    "word":"ماه بلند",
+    "category":"simple_single"
+  },
+  {
+    "word":"بازدارنده تاریک",
+    "category":"hard_single"
+  },
+  {
+    "word":"معادلات دیفرانسیل روشن",
+    "category":"hard_compound"
+  },
+  {
+    "word":"دریا روز",
+    "category":"simple_single"
+  },
+  {
+    "word":"تا تو با منی زمانه با من است شب",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"هم‌افزایی خسته",
+    "category":"hard_single"
+  },
+  {
+    "word":"تناقض قدیمی",
+    "category":"hard_single"
+  },
+  {
+    "word":"معادلات دیفرانسیل",
+    "category":"hard_compound"
+  },
+  {
+    "word":"نقطه‌چین نامتقارن شب",
+    "category":"hard_compound"
+  },
+  {
+    "word":"آتش خاموش",
+    "category":"simple_single"
+  },
+  {
+    "word":"نابهنجاری بی‌نور",
+    "category":"hard_single"
+  },
+  {
+    "word":"خوش‌تر آن باشد که سر دلبران گفته آید در حدیث دیگران تاریک",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"کتاب جدید",
+    "category":"simple_single"
+  },
+  {
+    "word":"برنامه‌ریزی غیرخطی آرام",
+    "category":"hard_compound"
+  },
+  {
+    "word":"زنگ تلفن شب",
+    "category":"simple_compound"
+  },
+  {
+    "word":"در نوشابه سریع",
+    "category":"simple_compound"
+  },
+  {
+    "word":"آب معدنی",
+    "category":"simple_compound"
+  },
+  {
+    "word":"تغییرات اقلیمی گسترده قدیمی",
+    "category":"hard_compound"
+  },
+  {
+    "word":"توسعه ناپایدار شهری روز",
+    "category":"hard_compound"
+  },
+  {
+    "word":"پیراهن دور",
+    "category":"simple_single"
+  },
+  {
+    "word":"ماه خاموش",
+    "category":"simple_single"
+  },
+  {
+    "word":"قفل درب زیبا",
+    "category":"simple_compound"
+  },
+  {
+    "word":"قفل درب خسته",
+    "category":"simple_compound"
+  },
+  {
+    "word":"پنکه رومیزی خاموش",
+    "category":"simple_compound"
+  },
+  {
+    "word":"ساعت",
+    "category":"simple_single"
+  },
+  {
+    "word":"نظام‌نامه بی‌نور",
+    "category":"hard_single"
+  },
+  {
+    "word":"هر که طاووس خواهد، جور هندوستان کشد پنهان",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"آب معدنی دور",
+    "category":"simple_compound"
+  },
+  {
+    "word":"تحلیل سیستمی فرآیند روز",
+    "category":"hard_compound"
+  },
+  {
+    "word":"تحلیل سیستمی فرآیند خاموش",
+    "category":"hard_compound"
+  },
+  {
+    "word":"باران شب",
+    "category":"simple_single"
+  },
+  {
+    "word":"تحلیل سیستمی فرآیند آرام",
+    "category":"hard_compound"
+  },
+  {
+    "word":"نه هر که چهره برافروخت دلبری داند",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"توسعه ناپایدار شهری روشن",
+    "category":"hard_compound"
+  },
+  {
+    "word":"در نوشابه بلند",
+    "category":"simple_compound"
+  },
+  {
+    "word":"پروتکل‌های ارتباطی رمزگذاری‌شده روز",
+    "category":"hard_compound"
+  },
+  {
+    "word":"کارت بانکی بلند",
+    "category":"simple_compound"
+  },
+  {
+    "word":"شتر دیدی ندیدی زیبا",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"در نوشابه تاریک",
+    "category":"simple_compound"
+  },
+  {
+    "word":"پوشه مدارک بی‌نور",
+    "category":"simple_compound"
+  },
+  {
+    "word":"در نوشابه عجیب",
+    "category":"simple_compound"
+  },
+  {
+    "word":"ساختار شکنی ذهنی روز",
+    "category":"hard_compound"
+  },
+  {
+    "word":"درگیری‌های مرزی آرام",
+    "category":"hard_compound"
+  },
+  {
+    "word":"ساختارهای پیچیده ژنتیکی بی‌صدا",
+    "category":"hard_compound"
+  },
+  {
+    "word":"سرمایه‌گذاری بلندمدت خارجی زیبا",
+    "category":"hard_compound"
+  },
+  {
+    "word":"ماه خسته",
+    "category":"simple_single"
+  },
+  {
+    "word":"نظریه آشوب روز",
+    "category":"hard_compound"
+  },
+  {
+    "word":"شبکه‌های توزیع نامتقارن بی‌صدا",
+    "category":"hard_compound"
+  },
+  {
+    "word":"شعاعی عجیب",
+    "category":"hard_single"
+  },
+  {
+    "word":"قفل درب دور",
+    "category":"simple_compound"
+  },
+  {
+    "word":"هر که بامش بیش، برفش بیشتر قدیمی",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"از تو حرکت، از خدا برکت بلند",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"سیاست‌گذاری دور",
+    "category":"hard_single"
+  },
+  {
+    "word":"زنگ تلفن بلند",
+    "category":"simple_compound"
+  },
+  {
+    "word":"معادلات دیفرانسیل خسته",
+    "category":"hard_compound"
+  },
+  {
+    "word":"سیاست‌گذاری روز",
+    "category":"hard_single"
+  },
+  {
+    "word":"دستمال کاغذی روز",
+    "category":"simple_compound"
+  },
+  {
+    "word":"خوش‌تر آن باشد که سر دلبران گفته آید در حدیث دیگران",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"درگیری‌های مرزی قدیمی",
+    "category":"hard_compound"
+  },
+  {
+    "word":"سفر کاری قدیمی",
+    "category":"simple_compound"
+  },
+  {
+    "word":"ترکیب‌پذیر زیبا",
+    "category":"hard_single"
+  },
+  {
+    "word":"آب در کوزه و ما تشنه‌لبان می‌گردیم تاریک",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"باد خسته",
+    "category":"simple_single"
+  },
+  {
+    "word":"نقطه‌چین نامتقارن آرام",
+    "category":"hard_compound"
+  },
+  {
+    "word":"خوش‌تر آن باشد که سر دلبران گفته آید در حدیث دیگران قدیمی",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"سرمایه‌گذاری بلندمدت خارجی بی‌نور",
+    "category":"hard_compound"
+  },
+  {
+    "word":"خانه بی‌نور",
+    "category":"simple_single"
+  },
+  {
+    "word":"چتر بارانی روشن",
+    "category":"simple_compound"
+  },
+  {
+    "word":"پروتکل‌های ارتباطی رمزگذاری‌شده روشن",
+    "category":"hard_compound"
+  },
+  {
+    "word":"چراغ مطالعه نزدیک",
+    "category":"simple_compound"
+  },
+  {
+    "word":"گل روشن",
+    "category":"simple_single"
+  },
+  {
+    "word":"پیراهن خسته",
+    "category":"simple_single"
+  },
+  {
+    "word":"پیراهن خاموش",
+    "category":"simple_single"
+  },
+  {
+    "word":"مخمصه زیبا",
+    "category":"hard_single"
+  },
+  {
+    "word":"زنگ تلفن پنهان",
+    "category":"simple_compound"
+  },
+  {
+    "word":"سفر کاری شب",
+    "category":"simple_compound"
+  },
+  {
+    "word":"قلم خودکار قدیمی",
+    "category":"simple_compound"
+  },
+  {
+    "word":"دل داده‌ام بر باد، بر هر چه بادا باد خاموش",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"چتر بارانی بی‌نور",
+    "category":"simple_compound"
+  },
+  {
+    "word":"نظریه آشوب شب",
+    "category":"hard_compound"
+  },
+  {
+    "word":"تحلیل زیبا",
+    "category":"hard_single"
+  },
+  {
+    "word":"آب در کوزه و ما تشنه‌لبان می‌گردیم نزدیک",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"هر که طاووس خواهد، جور هندوستان کشد بلند",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"مرغ همسایه غاز است آرام",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"تضاد منافع اقتصادی روشن",
+    "category":"hard_compound"
+  },
+  {
+    "word":"تا مرد سخن نگفته باشد، عیب و هنرش نهفته باشد بی‌صدا",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"کیف دستی عجیب",
+    "category":"simple_compound"
+  },
+  {
+    "word":"اختلاس خاموش",
+    "category":"hard_single"
+  },
+  {
+    "word":"محرمانه قدیمی",
+    "category":"hard_single"
+  },
+  {
+    "word":"آب که یک‌جا بماند، می‌گندد دور",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"نظام‌نامه عجیب",
+    "category":"hard_single"
+  },
+  {
+    "word":"وابستگی متقابل سازمانی قدیمی",
+    "category":"hard_compound"
+  },
+  {
+    "word":"هم‌افزایی خاموش",
+    "category":"hard_single"
+  },
+  {
+    "word":"خانه خاموش",
+    "category":"simple_single"
+  },
+  {
+    "word":"کوه به کوه نمی‌رسد، آدم به آدم می‌رسد خاموش",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"شعاعی پنهان",
+    "category":"hard_single"
+  },
+  {
+    "word":"کارت بانکی سریع",
+    "category":"simple_compound"
+  },
+  {
+    "word":"دوچرخه روز",
+    "category":"simple_single"
+  },
+  {
+    "word":"تلفن همراه تاریک",
+    "category":"simple_compound"
+  },
+  {
+    "word":"محرمانه",
+    "category":"hard_single"
+  },
+  {
+    "word":"نابهنجاری شب",
+    "category":"hard_single"
+  },
+  {
+    "word":"دل داده‌ام بر باد، بر هر چه بادا باد زیبا",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"در نوشابه شب",
+    "category":"simple_compound"
+  },
+  {
+    "word":"شام خانوادگی سریع",
+    "category":"simple_compound"
+  },
+  {
+    "word":"خورشید قدیمی",
+    "category":"simple_single"
+  },
+  {
+    "word":"چراغ پنهان",
+    "category":"simple_single"
+  },
+  {
+    "word":"معادلات دیفرانسیل زیبا",
+    "category":"hard_compound"
+  },
+  {
+    "word":"تناقض بی‌صدا",
+    "category":"hard_single"
+  },
+  {
+    "word":"نقطه‌چین نامتقارن بی‌نور",
+    "category":"hard_compound"
+  },
+  {
+    "word":"نه هر که چهره برافروخت دلبری داند نزدیک",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"برنامه‌ریزی غیرخطی تاریک",
+    "category":"hard_compound"
+  },
+  {
+    "word":"پوشه مدارک تاریک",
+    "category":"simple_compound"
+  },
+  {
+    "word":"گل خاموش",
+    "category":"simple_single"
+  },
+  {
+    "word":"اختلاس خسته",
+    "category":"hard_single"
+  },
+  {
+    "word":"زنگ تلفن بی‌صدا",
+    "category":"simple_compound"
+  },
+  {
+    "word":"جایگاه نزدیک",
+    "category":"hard_single"
+  },
+  {
+    "word":"توسعه ناپایدار شهری قدیمی",
+    "category":"hard_compound"
+  },
+  {
+    "word":"اختلاس عجیب",
+    "category":"hard_single"
+  },
+  {
+    "word":"دیوار",
+    "category":"simple_single"
+  },
+  {
+    "word":"بازدارنده دور",
+    "category":"hard_single"
+  },
+  {
+    "word":"کتاب دور",
+    "category":"simple_single"
+  },
+  {
+    "word":"تحلیل سیستمی فرآیند نزدیک",
+    "category":"hard_compound"
+  },
+  {
+    "word":"خورشید بلند",
+    "category":"simple_single"
+  },
+  {
+    "word":"تلفن همراه جدید",
+    "category":"simple_compound"
+  },
+  {
+    "word":"دل به دل راه دارد دور",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"مدیریت بحران بین‌المللی شب",
+    "category":"hard_compound"
+  },
+  {
+    "word":"مرغ همسایه غاز است قدیمی",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"برهم‌کنش‌های مولکولی بلند",
+    "category":"hard_compound"
+  },
+  {
+    "word":"فروپاشی دور",
+    "category":"hard_single"
+  },
+  {
+    "word":"تحلیل سیستمی فرآیند",
+    "category":"hard_compound"
+  },
+  {
+    "word":"محرمانه شب",
+    "category":"hard_single"
+  },
+  {
+    "word":"هر که بامش بیش، برفش بیشتر روز",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"مرغ همسایه غاز است بی‌نور",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"ماه قدیمی",
+    "category":"simple_single"
+  },
+  {
+    "word":"هر چه سنگ است برای پای لنگ است بی‌صدا",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"ترکیب‌پذیر",
+    "category":"hard_single"
+  },
+  {
+    "word":"سفر کاری",
+    "category":"simple_compound"
+  },
+  {
+    "word":"هر چه سنگ است برای پای لنگ است بلند",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"گل بی‌صدا",
+    "category":"simple_single"
+  },
+  {
+    "word":"پیراهن نزدیک",
+    "category":"simple_single"
+  },
+  {
+    "word":"سیاست‌گذاری قدیمی",
+    "category":"hard_single"
+  },
+  {
+    "word":"تلفن همراه آرام",
+    "category":"simple_compound"
+  },
+  {
+    "word":"ساعت آرام",
+    "category":"simple_single"
+  },
+  {
+    "word":"کتاب درسی بی‌نور",
+    "category":"simple_compound"
+  },
+  {
+    "word":"کتاب درسی خاموش",
+    "category":"simple_compound"
+  },
+  {
+    "word":"درگیری‌های مرزی روز",
+    "category":"hard_compound"
+  },
+  {
+    "word":"تغییرات اقلیمی گسترده روز",
+    "category":"hard_compound"
+  },
+  {
+    "word":"هر که بامش بیش، برفش بیشتر",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"پلاسمای خون سریع",
+    "category":"hard_single"
+  },
+  {
+    "word":"ساختارهای پیچیده ژنتیکی سریع",
+    "category":"hard_compound"
+  },
+  {
+    "word":"تحلیل روز",
+    "category":"hard_single"
+  },
+  {
+    "word":"بی‌نظمی جدید",
+    "category":"hard_single"
+  },
+  {
+    "word":"تناقض جدید",
+    "category":"hard_single"
+  },
+  {
+    "word":"چو ایران نباشد تن من مباد بی‌نور",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"پنکه رومیزی پنهان",
+    "category":"simple_compound"
+  },
+  {
+    "word":"ساختارهای پیچیده ژنتیکی",
+    "category":"hard_compound"
+  },
+  {
+    "word":"ماه روشن",
+    "category":"simple_single"
+  },
+  {
+    "word":"مدیریت بحران بین‌المللی خاموش",
+    "category":"hard_compound"
+  },
+  {
+    "word":"چو ایران نباشد تن من مباد خاموش",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"مرغ همسایه غاز است روز",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"سیاست‌گذاری",
+    "category":"hard_single"
+  },
+  {
+    "word":"ساختار شکنی ذهنی تاریک",
+    "category":"hard_compound"
+  },
+  {
+    "word":"دوچرخه خاموش",
+    "category":"simple_single"
+  },
+  {
+    "word":"تسلسل سریع",
+    "category":"hard_single"
+  },
+  {
+    "word":"دی شیخ با چراغ همی‌گشت گرد شهر خاموش",
+    "category":"poem_or_proverb"
+  },
+  {
+    "word":"تلفن همراه خسته",
+    "category":"simple_compound"
+  },
+  {
+    "word":"تا مرد سخن نگفته باشد، عیب و هنرش نهفته باشد نزدیک",
+    "category":"poem_or_proverb"
+  }
+]
