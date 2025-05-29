@@ -6,6 +6,8 @@ import Slider from '@react-native-community/slider';
 import { useDispatch, useSelector } from 'react-redux';
 import { setMode, setTurnDuration, setGameOptions } from '../redux/gameSlice';
 import { RootState } from '../redux/store';
+import { useI18n } from '../constants/I18nContext';
+import { translations } from '../constants/i18n';
 
 const GAME_OPTIONS = [
   'Easy simple',
@@ -30,6 +32,7 @@ export default function GamePropsScreen() {
   const [localMode, setLocalMode] = useState<'simple' | '3step'>(mode || '3step');
   const router = useRouter();
   const theme = useTheme();
+  const { t } = useI18n();
 
   // When localMode changes, update redux
   useEffect(() => {
@@ -53,9 +56,18 @@ export default function GamePropsScreen() {
     }));
   };
 
+  // Map for option translation keys
+  const optionTranslationKeys: { [key: string]: keyof typeof translations['en'] } = {
+    'Easy simple': 'easy_simple',
+    'Hard simple': 'hard_simple',
+    'Easy combination': 'easy_combination',
+    'Hard combination': 'hard_combination',
+    'Poem': 'poem',
+  };
+
   return (
     <View style={styles.container}>
-      <Text variant="titleLarge" style={styles.title}>Game Mode</Text>
+      <Text variant="titleLarge" style={styles.title}>{t('game_mode')}</Text>
       <ToggleButton.Row
         onValueChange={value => setLocalMode(value as 'simple' | '3step')}
         value={localMode}
@@ -65,10 +77,10 @@ export default function GamePropsScreen() {
         <ToggleButton icon="numeric-3-box" value="3step" style={styles.toggleButton} />
       </ToggleButton.Row>
       <View style={styles.toggleLabels}>
-        <Text style={styles.label}>Simple</Text>
-        <Text style={styles.label}>3 Step</Text>
+        <Text style={styles.label}>{t('simple')}</Text>
+        <Text style={styles.label}>{t('three_step')}</Text>
       </View>
-      <Text style={styles.durationLabel}>Turn Duration: {duration} seconds</Text>
+      <Text style={styles.durationLabel}>{t('turn_duration')}: {duration} s</Text>
       <Slider
         style={{ width: 220, height: 40 }}
         minimumValue={20}
@@ -81,10 +93,10 @@ export default function GamePropsScreen() {
         maximumTrackTintColor="#d3d3d3"
         thumbTintColor="#4F8EF7"
       />
-      <Text style={styles.optionsTitle}>Game Options</Text>
+      <Text style={styles.optionsTitle}>{t('game_options')}</Text>
       {GAME_OPTIONS.map(option => (
         <View key={option} style={styles.optionRow}>
-          <Text style={styles.optionLabel}>{option}</Text>
+          <Text style={styles.optionLabel}>{t(optionTranslationKeys[option])}</Text>
           <View style={styles.counter}>
             <IconButton icon="minus" size={20} onPress={() => handleCountChange(option, -1)} />
             <Text style={styles.count}>{optionCounts[option]}</Text>
@@ -104,7 +116,7 @@ export default function GamePropsScreen() {
         labelStyle={styles.nextButtonText}
         disabled={Object.values(optionCounts).reduce((a, b) => a + b, 0) < 10}
       >
-        Next
+        {t('next')}
       </Button>
     </View>
   );

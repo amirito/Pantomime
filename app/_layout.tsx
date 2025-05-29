@@ -6,8 +6,10 @@ import 'react-native-reanimated';
 import { Provider } from 'react-redux';
 import { store } from '../redux/store';
 import { View, Text, StyleSheet } from 'react-native';
+import { Provider as PaperProvider } from 'react-native-paper';
 
 import { useColorScheme } from '@/hooks/useColorScheme';
+import { I18nProvider } from '../constants/I18nContext';
 
 export default function RootLayout() {
   const colorScheme = useColorScheme();
@@ -22,17 +24,21 @@ export default function RootLayout() {
 
   return (
     <Provider store={store}>
-      <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
-        <Stack>
-          <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
-          <Stack.Screen name="game-props" options={{ headerShown: false }} />
-          <Stack.Screen name="game" options={{ headerShown: false }} />
-          <Stack.Screen name="team1" options={{ headerShown: false }} />
-          <Stack.Screen name="team2" options={{ headerShown: false }} />
-          <Stack.Screen name="+not-found" options={{ headerShown: false }} />
-        </Stack>
-        <StatusBar style="auto" />
-      </ThemeProvider>
+      <PaperProvider>
+        <I18nProvider>
+          <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
+            <Stack>
+              <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
+              <Stack.Screen name="game-props" options={{ headerShown: false }} />
+              <Stack.Screen name="game" options={{ headerShown: false }} />
+              <Stack.Screen name="team1" options={{ headerShown: false }} />
+              <Stack.Screen name="team2" options={{ headerShown: false }} />
+              <Stack.Screen name="+not-found" options={{ headerShown: false }} />
+            </Stack>
+            <StatusBar style="auto" />
+          </ThemeProvider>
+        </I18nProvider>
+      </PaperProvider>
     </Provider>
   );
 }

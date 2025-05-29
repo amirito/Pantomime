@@ -2,14 +2,16 @@ import React from 'react';
 import { View, StyleSheet } from 'react-native';
 import { Button, Text, useTheme } from 'react-native-paper';
 import { useRouter } from 'expo-router';
+import { useI18n } from '../../constants/I18nContext';
 
 export default function HomeScreen() {
   const router = useRouter();
   const theme = useTheme();
+  const { t } = useI18n();
   return (
     <>
       <View style={styles.headerContainer}>
-        <Text variant="headlineLarge" style={[styles.headerText, { color: theme.colors.primary }]}>Pantomime Game</Text>
+        <Text variant="headlineLarge" style={[styles.headerText, { color: theme.colors.primary }]}>{t('home_title')}</Text>
       </View>
       <View style={styles.container}>
         <Button
@@ -19,7 +21,7 @@ export default function HomeScreen() {
           contentStyle={styles.circleButtonContent}
           labelStyle={styles.buttonText}
         >
-          Create New Game
+          {t('create_new_game')}
         </Button>
       </View>
     </>
