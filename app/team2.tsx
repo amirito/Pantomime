@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { View, FlatList } from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
 import { useRouter } from 'expo-router';
 import { TextInput, Button, Text, useTheme } from 'react-native-paper';
 import { useDispatch } from 'react-redux';
@@ -23,7 +24,7 @@ export default function Team2Screen() {
   };
 
   return (
-    <View style={styles.container}>
+    <SafeAreaView style={styles.container} edges={["bottom", "left", "right", "top"]}>
       <Text variant="titleLarge" style={styles.title}>Team 2 Players</Text>
       <TextInput
         mode="outlined"
@@ -57,6 +58,6 @@ export default function Team2Screen() {
       >
         Start Game
       </Button>
-    </View>
+    </SafeAreaView>
   );
 }
