@@ -33,6 +33,10 @@ export const translations = {
     easy_combination: 'Easy combination',
     hard_combination: 'Hard combination',
     poem: 'Poem',
+    exit_game_title: 'Exit Game',
+    exit_game_message: 'Are you sure you want to exit the game?',
+    cancel: 'Cancel',
+    exit: 'Exit',
   },
   fa: {
     home_title: 'بازی پانتومیم',
@@ -68,6 +72,10 @@ export const translations = {
     easy_combination: 'ترکیبی آسان',
     hard_combination: 'ترکیبی سخت',
     poem: 'شعر یا ضرب‌المثل',
+    exit_game_title: 'خروج از بازی',
+    exit_game_message: 'آیا مطمئن هستید که می‌خواهید از بازی خارج شوید؟',
+    cancel: 'انصراف',
+    exit: 'خروج',
   },
   tr: {
     home_title: 'Pandomim Oyunu',
@@ -103,6 +111,10 @@ export const translations = {
     easy_combination: 'Kolay birleşik',
     hard_combination: 'Zor birleşik',
     poem: 'Şiir veya atasözü',
+    exit_game_title: 'Oyundan Çık',
+    exit_game_message: 'Oyundan çıkmak istediğinizden emin misiniz?',
+    cancel: 'Vazgeç',
+    exit: 'Çık',
   },
 };
 

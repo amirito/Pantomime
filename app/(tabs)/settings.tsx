@@ -1,7 +1,8 @@
 import React from 'react';
-import { View, StyleSheet, Image } from 'react-native';
+import { View, Image } from 'react-native';
 import { Text, Menu, Button as PaperButton } from 'react-native-paper';
 import { useI18n } from '../../constants/I18nContext';
+import styles from '../../styles/settings.styles';
 
 const flagImages: Record<'en' | 'fa' | 'tr', any> = {
   en: require('../../assets/images/usa-flag.png'),
@@ -49,21 +50,3 @@ export default function SettingsScreen() {
     </View>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#fff',
-  },
-  title: {
-    fontSize: 28,
-    fontWeight: 'bold',
-    marginBottom: 32,
-  },
-  label: {
-    fontSize: 20,
-    marginBottom: 16,
-  },
-});

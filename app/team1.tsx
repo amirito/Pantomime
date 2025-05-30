@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
-import { View, StyleSheet, FlatList } from 'react-native';
+import { View, FlatList } from 'react-native';
 import { useRouter } from 'expo-router';
 import { TextInput, Button, Text, useTheme } from 'react-native-paper';
 import { useDispatch } from 'react-redux';
 import { setTeam1 } from '../redux/gameSlice';
+import styles from '../styles/team1.styles';
 
 export default function Team1Screen() {
   const [player, setPlayer] = useState('');
@@ -55,42 +56,3 @@ export default function Team1Screen() {
     </View>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'flex-end',
-    alignItems: 'center',
-    backgroundColor: '#fff',
-    paddingBottom: 48, // Add padding to keep button above bezel
-  },
-  title: {
-    fontSize: 28,
-    fontWeight: 'bold',
-    marginBottom: 24,
-  },
-  input: {
-    width: '100%',
-    marginBottom: 12,
-  },
-  addButton: {
-    marginBottom: 12,
-    width: '100%',
-  },
-  list: {
-    width: '100%',
-    marginVertical: 16,
-  },
-  player: {
-    fontSize: 18,
-    padding: 4,
-  },
-  nextButton: {
-    marginTop: 32,
-    marginBottom: 24, // Add margin to keep button above bezel
-    borderRadius: 30,
-    backgroundColor: '#4F8EF7',
-    paddingHorizontal: 32,
-    paddingVertical: 16,
-  },
-});

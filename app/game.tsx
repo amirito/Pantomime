@@ -1,10 +1,12 @@
 import React, { useEffect, useRef, useState } from 'react';
-import { View, StyleSheet } from 'react-native';
-import { Text, Button } from 'react-native-paper';
+import { View, BackHandler } from 'react-native';
+import { Text, Button, Dialog, Portal } from 'react-native-paper';
 import { useSelector } from 'react-redux';
 import { RootState } from '../redux/store';
 import wordsDatabase from '../assets/pantomime_words_database.json';
 import { useRouter } from 'expo-router';
+import { useI18n } from '../constants/I18nContext';
+import styles from '../styles/game.styles';
 
 // Mapping from gameOptions keys to word database categories
 const CATEGORY_MAP: Record<string, string> = {
@@ -56,6 +58,8 @@ export default function GameScreen() {
   const [showResults, setShowResults] = useState(false); // for 3-step mode
   // Track points for each round in 3step mode
   const [roundPoints, setRoundPoints] = useState<{ team1: number[]; team2: number[] }>({ team1: [], team2: [] });
+  const [exitDialogVisible, setExitDialogVisible] = useState(false);
+  const { t } = useI18n();
 
   // Select words on mount (only for round 1 or if mode is not 3step)
   useEffect(() => {
@@ -83,6 +87,18 @@ export default function GameScreen() {
     setCurrentTeam('team1');
     setShowResults(false);
   }, [gameOptions, round, mode]);
+
+  // Handle Android back button
+  useEffect(() => {
+    const onBackPress = () => {
+      setExitDialogVisible(true);
+      return true;
+    };
+    const subscription = BackHandler.addEventListener('hardwareBackPress', onBackPress);
+    return () => {
+      subscription.remove();
+    };
+  }, []);
 
   // On each turn, pick a random word from remainingWords
   useEffect(() => {
@@ -325,98 +341,18 @@ export default function GameScreen() {
           </Button>
         </>
       )}
+      <Portal>
+        <Dialog visible={exitDialogVisible} onDismiss={() => setExitDialogVisible(false)}>
+          <Dialog.Title>{t('exit_game_title') || 'Exit Game'}</Dialog.Title>
+          <Dialog.Content>
+            <Text>{t('exit_game_message') || 'Are you sure you want to exit the game?'}</Text>
+          </Dialog.Content>
+          <Dialog.Actions>
+            <Button onPress={() => setExitDialogVisible(false)}>{t('cancel') || 'Cancel'}</Button>
+            <Button onPress={() => { setExitDialogVisible(false); router.replace('/'); }}>{t('exit') || 'Exit'}</Button>
+          </Dialog.Actions>
+        </Dialog>
+      </Portal>
     </View>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#fff',
-  },
-  roundLabel: {
-    fontSize: 20,
-    fontWeight: 'bold',
-    color: '#b71c1c',
-    marginBottom: 4,
-    marginTop: 8,
-  },
-  currentPlayer: {
-    fontSize: 22,
-    fontWeight: 'bold',
-    color: '#4F8EF7',
-    marginBottom: 8,
-    marginTop: 8,
-  },
-  title: {
-    fontSize: 28,
-    fontWeight: 'bold',
-  },
-  timer: {
-    fontSize: 40,
-    fontWeight: 'bold',
-    marginVertical: 24,
-    color: '#4F8EF7',
-  },
-  wordContainer: {
-    marginVertical: 32,
-    padding: 32,
-    borderRadius: 24,
-    backgroundColor: '#e0f7e9',
-    minWidth: 220,
-    minHeight: 120,
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
-  word: {
-    fontSize: 32,
-    fontWeight: 'bold',
-    color: '#1b5e20',
-    textAlign: 'center',
-  },
-  passButton: {
-    backgroundColor: '#4CAF50',
-    borderRadius: 100,
-    width: 120,
-    height: 120,
-    justifyContent: 'center',
-    alignItems: 'center',
-    marginTop: 32,
-  },
-  passButtonLabel: {
-    color: '#fff',
-    fontSize: 28,
-    fontWeight: 'bold',
-  },
-  passButtonContent: {
-    height: 120,
-  },
-  nextButton: {
-    marginTop: 32,
-    borderRadius: 30,
-    backgroundColor: '#4F8EF7',
-    paddingHorizontal: 32,
-    paddingVertical: 16,
-  },
-  passedList: {
-    marginTop: 32,
-    alignItems: 'center',
-  },
-  passedTitle: {
-    fontSize: 20,
-    fontWeight: 'bold',
-    marginBottom: 8,
-  },
-  passedWord: {
-    fontSize: 18,
-    color: '#b71c1c',
-    marginVertical: 2,
-  },
-  points: {
-    fontSize: 24,
-    fontWeight: 'bold',
-    marginVertical: 4,
-  },
-});
