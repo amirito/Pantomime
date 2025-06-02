@@ -1,8 +1,9 @@
 import React from 'react';
 import { View, Image } from 'react-native';
-import { Text, Menu, Button as PaperButton } from 'react-native-paper';
+import { Text, Menu, Button as PaperButton, Switch } from 'react-native-paper';
 import { useI18n } from '../../constants/I18nContext';
-import styles from '../../styles/settings.styles';
+import { useThemeMode } from '../../constants/ThemeContext';
+import getSettingsStyles from '../../styles/settings.styles';
 
 const flagImages: Record<'en' | 'fa' | 'tr', any> = {
   en: require('../../assets/images/usa-flag.png'),
@@ -11,23 +12,31 @@ const flagImages: Record<'en' | 'fa' | 'tr', any> = {
 };
 
 export default function SettingsScreen() {
-  const { language, setLanguage, t } = useI18n();
+  const { language, t, setLanguage } = useI18n();
+  const { themeMode, setThemeMode } = useThemeMode();
+  const styles = getSettingsStyles(themeMode);
+  const farsiFont = language === 'fa' ? { fontFamily: 'Samim' } : {};
+  const FarsiText = (props: React.ComponentProps<typeof Text>) => <Text {...props} style={[props.style, farsiFont]} />;
   const [menuVisible, setMenuVisible] = React.useState(false);
   const languageOptions = [
     { key: 'en', label: t('english') },
     { key: 'fa', label: t('farsi') },
     { key: 'tr', label: t('turkish') },
   ];
+  // Add translations for theme, light, dark
+  const themeLabel = t('theme');
+  const lightLabel = t('light');
+  const darkLabel = t('dark');
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>{t('settings')}</Text>
-      <Text style={styles.label}>{t('language')}</Text>
+      <FarsiText style={styles.title}>{t('settings')}</FarsiText>
+      <FarsiText style={styles.label}>{t('language')}</FarsiText>
       <Menu
         visible={menuVisible}
         onDismiss={() => setMenuVisible(false)}
         anchor={
-          <PaperButton mode="outlined" onPress={() => setMenuVisible(true)}>
-            {languageOptions.find(opt => opt.key === language)?.label}
+          <PaperButton mode="outlined" onPress={() => setMenuVisible(true)} labelStyle={farsiFont}>
+            <FarsiText>{languageOptions.find(opt => opt.key === language)?.label}</FarsiText>
           </PaperButton>
         }
       >
@@ -41,12 +50,21 @@ export default function SettingsScreen() {
             title={
               <View style={{ flexDirection: 'row', alignItems: 'center' }}>
                 <Image source={flagImages[opt.key as 'en' | 'fa' | 'tr']} style={{ width: 24, height: 16, marginRight: 8, resizeMode: 'contain' }} />
-                <Text>{opt.label}</Text>
+                <FarsiText>{opt.label}</FarsiText>
               </View>
             }
           />
         ))}
       </Menu>
+      <FarsiText style={[styles.label, { marginTop: 32 }]}>{themeLabel}</FarsiText>
+      <View style={{ flexDirection: 'row', alignItems: 'center', marginBottom: 16 }}>
+        <FarsiText style={{ marginRight: 12 }}>{lightLabel}</FarsiText>
+        <Switch
+          value={themeMode === 'dark'}
+          onValueChange={v => setThemeMode(v ? 'dark' : 'light')}
+        />
+        <FarsiText style={{ marginLeft: 12 }}>{darkLabel}</FarsiText>
+      </View>
     </View>
   );
 }

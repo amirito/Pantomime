@@ -10,36 +10,45 @@ import { Provider as PaperProvider } from 'react-native-paper';
 
 import { useColorScheme } from '@/hooks/useColorScheme';
 import { I18nProvider } from '../constants/I18nContext';
+import { ThemeProviderCustom, useThemeMode } from '../constants/ThemeContext';
 
 export default function RootLayout() {
-  const colorScheme = useColorScheme();
   const [loaded] = useFonts({
     SpaceMono: require('../assets/fonts/SpaceMono-Regular.ttf'),
+    Samim: require('../assets/fonts/samim-font/Samim.ttf'),
   });
 
   if (!loaded) {
-    // Async font loading only occurs in development.
     return null;
   }
 
   return (
     <Provider store={store}>
-      <PaperProvider>
-        <I18nProvider>
-          <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
-            <Stack>
-              <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
-              <Stack.Screen name="game-props" options={{ headerShown: false }} />
-              <Stack.Screen name="game" options={{ headerShown: false }} />
-              <Stack.Screen name="team1" options={{ headerShown: false }} />
-              <Stack.Screen name="team2" options={{ headerShown: false }} />
-              <Stack.Screen name="+not-found" options={{ headerShown: false }} />
-            </Stack>
-            <StatusBar style="auto" />
-          </ThemeProvider>
-        </I18nProvider>
-      </PaperProvider>
+      <ThemeProviderCustom>
+        <ThemeWrapper />
+      </ThemeProviderCustom>
     </Provider>
+  );
+}
+
+function ThemeWrapper() {
+  const { paperTheme, navTheme } = useThemeMode();
+  return (
+    <PaperProvider theme={paperTheme}>
+      <I18nProvider>
+        <ThemeProvider value={navTheme}>
+          <Stack>
+            <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
+            <Stack.Screen name="game-props" options={{ headerShown: false }} />
+            <Stack.Screen name="game" options={{ headerShown: false }} />
+            <Stack.Screen name="team1" options={{ headerShown: false }} />
+            <Stack.Screen name="team2" options={{ headerShown: false }} />
+            <Stack.Screen name="+not-found" options={{ headerShown: false }} />
+          </Stack>
+          <StatusBar style="auto" />
+        </ThemeProvider>
+      </I18nProvider>
+    </PaperProvider>
   );
 }
 

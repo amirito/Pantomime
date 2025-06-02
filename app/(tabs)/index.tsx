@@ -1,18 +1,22 @@
 import React from 'react';
 import { View } from 'react-native';
-import { Button, Text, useTheme } from 'react-native-paper';
+import { Button, Text } from 'react-native-paper';
 import { useRouter } from 'expo-router';
 import { useI18n } from '../../constants/I18nContext';
-import styles from '../../styles/home.styles';
+import getHomeStyles from '../../styles/home.styles';
+import { useThemeMode } from '../../constants/ThemeContext';
 
 export default function HomeScreen() {
   const router = useRouter();
-  const theme = useTheme();
-  const { t } = useI18n();
+  const { t, language } = useI18n();
+  const { themeMode } = useThemeMode();
+  const styles = getHomeStyles(themeMode);
+  const farsiFont = language === 'fa' ? { fontFamily: 'Samim' } : {};
+  const FarsiText = (props: React.ComponentProps<typeof Text>) => <Text {...props} style={[props.style, farsiFont]} />;
   return (
     <>
       <View style={styles.headerContainer}>
-        <Text variant="headlineLarge" style={[styles.headerText, { color: theme.colors.primary }]}>{t('home_title')}</Text>
+        <FarsiText variant="headlineLarge" style={styles.headerText}>{t('home_title')}</FarsiText>
       </View>
       <View style={styles.container}>
         <Button
@@ -20,9 +24,9 @@ export default function HomeScreen() {
           style={styles.circleButton}
           onPress={() => router.push('/game-props')}
           contentStyle={styles.circleButtonContent}
-          labelStyle={styles.buttonText}
+          labelStyle={farsiFont}
         >
-          {t('create_new_game')}
+          <FarsiText style={styles.buttonText}>{t('create_new_game')}</FarsiText>
         </Button>
       </View>
     </>

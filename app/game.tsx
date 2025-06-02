@@ -6,7 +6,8 @@ import { RootState } from '../redux/store';
 import wordsDatabase from '../assets/pantomime_words_database.json';
 import { useRouter } from 'expo-router';
 import { useI18n } from '../constants/I18nContext';
-import styles from '../styles/game.styles';
+import getGameStyles from '../styles/game.styles';
+import { useThemeMode } from '../constants/ThemeContext';
 
 // Mapping from gameOptions keys to word database categories
 const CATEGORY_MAP: Record<string, string> = {
@@ -59,7 +60,13 @@ export default function GameScreen() {
   // Track points for each round in 3step mode
   const [roundPoints, setRoundPoints] = useState<{ team1: number[]; team2: number[] }>({ team1: [], team2: [] });
   const [exitDialogVisible, setExitDialogVisible] = useState(false);
-  const { t } = useI18n();
+  const { t, language } = useI18n();
+  const { themeMode } = useThemeMode();
+  const styles = getGameStyles(themeMode);
+  // Helper for Farsi font
+  const farsiFont = language === 'fa' ? { fontFamily: 'Samim' } : {};
+  // Helper to apply Farsi font to all Text
+  const FarsiText = (props: React.ComponentProps<typeof Text>) => <Text {...props} style={[props.style, farsiFont]} />;
 
   // Select words on mount (only for round 1 or if mode is not 3step)
   useEffect(() => {
@@ -306,13 +313,13 @@ export default function GameScreen() {
       {isRunning ? (
         <>
           {mode === '3step' && (
-            <Text style={styles.roundLabel}>Round {round}</Text>
+            <FarsiText style={styles.roundLabel}>Round {round}</FarsiText>
           )}
-          <Text style={styles.currentPlayer}>{currentPlayer}'s Turn</Text>
-          <Text style={styles.timer}>{timer}s</Text>
+          <FarsiText style={styles.currentPlayer}>{currentPlayer}'s Turn</FarsiText>
+          <FarsiText style={styles.timer}>{timer}s</FarsiText>
           {currentWord && (
             <View style={styles.wordContainer}>
-              <Text style={styles.word}>{currentWord}</Text>
+              <FarsiText style={styles.word}>{currentWord}</FarsiText>
             </View>
           )}
           <Button
@@ -320,36 +327,36 @@ export default function GameScreen() {
             style={styles.passButton}
             onPress={handlePass}
             disabled={!currentWord || remainingWords.length === 0}
-            labelStyle={styles.passButtonLabel}
+            labelStyle={[styles.passButtonLabel, farsiFont]}
             contentStyle={styles.passButtonContent}
           >
-            Pass
+            <FarsiText style={styles.passButtonLabel}>Pass</FarsiText>
           </Button>
         </>
       ) : (
         <>
           {turnPassedWords.length > 0 && (
             <View style={styles.passedList}>
-              <Text style={styles.passedTitle}>Passed Words:</Text>
+              <FarsiText style={styles.passedTitle}>Passed Words:</FarsiText>
               {turnPassedWords.map((w, i) => (
-                <Text key={i} style={styles.passedWord}>{w}</Text>
+                <FarsiText key={i} style={styles.passedWord}>{w}</FarsiText>
               ))}
             </View>
           )}
-          <Button mode="contained" onPress={nextTurn} style={styles.nextButton}>
-            Next Player{nextPlayerName ? `: ${nextPlayerName}` : ''}
+          <Button mode="contained" onPress={nextTurn} style={styles.nextButton} labelStyle={farsiFont}>
+            <FarsiText>{t('next_player')}{nextPlayerName ? `: ${nextPlayerName}` : ''}</FarsiText>
           </Button>
         </>
       )}
       <Portal>
         <Dialog visible={exitDialogVisible} onDismiss={() => setExitDialogVisible(false)}>
-          <Dialog.Title>{t('exit_game_title') || 'Exit Game'}</Dialog.Title>
+          <Dialog.Title style={farsiFont}>{t('exit_game_title') || 'Exit Game'}</Dialog.Title>
           <Dialog.Content>
-            <Text>{t('exit_game_message') || 'Are you sure you want to exit the game?'}</Text>
+            <FarsiText>{t('exit_game_message') || 'Are you sure you want to exit the game?'}</FarsiText>
           </Dialog.Content>
           <Dialog.Actions>
-            <Button onPress={() => setExitDialogVisible(false)}>{t('cancel') || 'Cancel'}</Button>
-            <Button onPress={() => { setExitDialogVisible(false); router.replace('/'); }}>{t('exit') || 'Exit'}</Button>
+            <Button onPress={() => setExitDialogVisible(false)} labelStyle={farsiFont}><FarsiText>{t('cancel') || 'Cancel'}</FarsiText></Button>
+            <Button onPress={() => { setExitDialogVisible(false); router.replace('/'); }} labelStyle={farsiFont}><FarsiText>{t('exit') || 'Exit'}</FarsiText></Button>
           </Dialog.Actions>
         </Dialog>
       </Portal>

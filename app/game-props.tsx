@@ -1,14 +1,15 @@
 import React, { useState, useEffect } from 'react';
 import { View } from 'react-native';
 import { useRouter } from 'expo-router';
-import { Button, Text, useTheme, ToggleButton, IconButton } from 'react-native-paper';
+import { Button, Text, ToggleButton, IconButton } from 'react-native-paper';
 import Slider from '@react-native-community/slider';
 import { useDispatch, useSelector } from 'react-redux';
 import { setMode, setTurnDuration, setGameOptions } from '../redux/gameSlice';
 import { RootState } from '../redux/store';
 import { useI18n } from '../constants/I18nContext';
 import { translations } from '../constants/i18n';
-import styles from '../styles/game-props.styles';
+import getGamePropsStyles from '../styles/game-props.styles';
+import { useThemeMode } from '../constants/ThemeContext';
 
 const GAME_OPTIONS = [
   'Easy simple',
@@ -32,13 +33,19 @@ export default function GamePropsScreen() {
   });
   const [localMode, setLocalMode] = useState<'simple' | '3step'>(mode || '3step');
   const router = useRouter();
-  const theme = useTheme();
-  const { t } = useI18n();
+  const { t, language } = useI18n();
+  const { themeMode } = useThemeMode();
+  const styles = getGamePropsStyles(themeMode);
+  const farsiFont = language === 'fa' ? { fontFamily: 'Samim' } : {};
+  const FarsiText = (props: React.ComponentProps<typeof Text>) => <Text {...props} style={[props.style, farsiFont]} />;
 
   // When localMode changes, update redux
   useEffect(() => {
     if (mode !== localMode) {
       dispatch(setMode(localMode));
+    }
+    if (!localMode) {
+      setLocalMode('3step');
     }
   }, [localMode]);
 
@@ -68,39 +75,40 @@ export default function GamePropsScreen() {
 
   return (
     <View style={styles.container}>
-      <Text variant="titleLarge" style={styles.title}>{t('game_mode')}</Text>
+      <FarsiText style={styles.title}>{t('game_mode')}</FarsiText>
+      
       <ToggleButton.Row
         onValueChange={value => setLocalMode(value as 'simple' | '3step')}
         value={localMode}
         style={styles.toggleRow}
       >
-        <ToggleButton icon="numeric-1-box" value="simple" style={styles.toggleButton} />
-        <ToggleButton icon="numeric-3-box" value="3step" style={styles.toggleButton} />
+        <ToggleButton icon="numeric-1-box" iconColor={localMode === 'simple' ? styles.toggleButtonActive.color : undefined} value="simple" style={[styles.toggleButton, localMode === 'simple' && styles.toggleButtonActive]} />
+        <ToggleButton icon="numeric-3-box" iconColor={localMode === '3step' ? styles.toggleButtonActive.color : undefined} value="3step" style={[styles.toggleButton, localMode === '3step' && styles.toggleButtonActive]} />
       </ToggleButton.Row>
       <View style={styles.toggleLabels}>
-        <Text style={styles.label}>{t('simple')}</Text>
-        <Text style={styles.label}>{t('three_step')}</Text>
+        <FarsiText style={styles.label}>{t('simple')}</FarsiText>
+        <FarsiText style={styles.label}>{t('three_step')}</FarsiText>
       </View>
-      <Text style={styles.durationLabel}>{t('turn_duration')}: {duration} s</Text>
+      <FarsiText style={styles.durationLabel}>{t('turn_duration')}: {duration} {t('seconds_short')}</FarsiText>
       <Slider
         style={{ width: 220, height: 40 }}
-        minimumValue={20}
-        maximumValue={180}
+        minimumValue={30}
+        maximumValue={5*60}
         step={5}
         value={duration}
         onValueChange={setDuration}
         onSlidingComplete={(val: number) => dispatch(setTurnDuration(val))}
-        minimumTrackTintColor="#4F8EF7"
+        minimumTrackTintColor={themeMode === 'dark' ? '#DDFFD9' : '#171738'}
         maximumTrackTintColor="#d3d3d3"
-        thumbTintColor="#4F8EF7"
+        thumbTintColor={themeMode === 'dark' ? '#DDFFD9' : '#171738'}
       />
-      <Text style={styles.optionsTitle}>{t('game_options')}</Text>
+      <FarsiText style={styles.optionsTitle}>{t('game_options')}</FarsiText>
       {GAME_OPTIONS.map(option => (
         <View key={option} style={styles.optionRow}>
-          <Text style={styles.optionLabel}>{t(optionTranslationKeys[option])}</Text>
+          <FarsiText style={styles.optionLabel}>{t(optionTranslationKeys[option])}</FarsiText>
           <View style={styles.counter}>
             <IconButton icon="minus" size={20} onPress={() => handleCountChange(option, -1)} />
-            <Text style={styles.count}>{optionCounts[option]}</Text>
+            <FarsiText style={styles.count}>{optionCounts[option]}</FarsiText>
             <IconButton icon="plus" size={20} onPress={() => handleCountChange(option, 1)} />
           </View>
         </View>
@@ -113,11 +121,11 @@ export default function GamePropsScreen() {
           dispatch(setGameOptions(optionCounts));
           router.push('/team1');
         }}
-        contentStyle={{ paddingVertical: 8 }}
+        
         labelStyle={styles.nextButtonText}
         disabled={Object.values(optionCounts).reduce((a, b) => a + b, 0) < 10}
       >
-        {t('next')}
+        <FarsiText>{t('next')}</FarsiText>
       </Button>
     </View>
   );

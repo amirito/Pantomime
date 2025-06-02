@@ -5,14 +5,21 @@ import { useRouter } from 'expo-router';
 import { TextInput, Button, Text, useTheme } from 'react-native-paper';
 import { useDispatch } from 'react-redux';
 import { setTeam1 } from '../redux/gameSlice';
-import styles from '../styles/team1.styles';
+import getTeam1Styles from '../styles/team1.styles';
+import { useThemeMode } from '../constants/ThemeContext';
+import { useI18n } from '../constants/I18nContext';
 
 export default function Team1Screen() {
   const [player, setPlayer] = useState('');
   const [players, setPlayers] = useState<string[]>([]);
   const router = useRouter();
-  const theme = useTheme();
+  const { t, language } = useI18n();
+  const { themeMode } = useThemeMode();
+  const styles = getTeam1Styles(themeMode);
   const dispatch = useDispatch();
+
+  const farsiFont = language === 'fa' ? { fontFamily: 'Samim' } : {};
+  const FarsiText = (props: React.ComponentProps<typeof Text>) => <Text {...props} style={[props.style, farsiFont]} />;
 
   const addPlayer = () => {
     if (player.trim()) {
@@ -25,22 +32,24 @@ export default function Team1Screen() {
 
   return (
     <SafeAreaView style={styles.container} edges={["bottom", "left", "right", "top"]}>
-      <Text variant="titleLarge" style={styles.title}>Team 1 Players</Text>
+      <FarsiText variant="titleLarge" style={styles.title}>{t('team1_players')}</FarsiText>
       <TextInput
         mode="outlined"
-        label="Enter player name"
+        label={t('add_player')}
         value={player}
         onChangeText={setPlayer}
         onSubmitEditing={addPlayer}
         style={styles.input}
+        contentStyle={styles.inputContent}
+        dense
       />
-      <Button mode="contained" onPress={addPlayer} style={styles.addButton}>
-        Add Player
+      <Button mode="contained" onPress={addPlayer} style={styles.addButton} labelStyle={farsiFont}>
+        <FarsiText>{t('add_player')}</FarsiText>
       </Button>
       <FlatList
         data={players}
         keyExtractor={(item, idx) => idx.toString()}
-        renderItem={({ item }) => <Text style={styles.player}>{item}</Text>}
+        renderItem={({ item }) => <FarsiText style={styles.player}>{item}</FarsiText>}
         style={styles.list}
       />
       <Button
@@ -49,10 +58,11 @@ export default function Team1Screen() {
           dispatch(setTeam1(players));
           router.push('/team2');
         }}
+        labelStyle={styles.nextButtonText}
         disabled={players.length === 0}
-        style={styles.nextButton}
+        style={[styles.nextButton, players.length < 2 ? styles.nextButtonDisabled : {}]}
       >
-        Next
+        <FarsiText>{t('next')}</FarsiText>
       </Button>
     </SafeAreaView>
   );

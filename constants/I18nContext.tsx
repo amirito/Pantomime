@@ -8,14 +8,14 @@ interface I18nContextProps {
 }
 
 const I18nContext = createContext<I18nContextProps>({
-  language: 'en',
+  language: 'fa',
   setLanguage: () => {},
-  t: (key) => translations['en'][key] || key,
+  t: (key) => translations['fa'][key] || key,
 });
 
 export const I18nProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
-  const [language, setLanguage] = useState<Language>('en');
-  const t = (key: keyof typeof translations['en']) => translations[language][key] || translations['en'][key] || key;
+  const [language, setLanguage] = useState<Language>('fa');
+  const t = (key: keyof typeof translations['fa']) => translations[language][key] || translations['fa'][key] || key;
   return (
     <I18nContext.Provider value={{ language, setLanguage, t }}>
       {children}

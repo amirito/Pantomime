@@ -7,6 +7,7 @@ export const translations = {
     three_step: '3 Step',
     turn_duration: 'Turn Duration',
     game_options: 'Game Options',
+    seconds_short: 's',
     next: 'Next',
     team1_players: 'Team 1 Players',
     team2_players: 'Team 2 Players',
@@ -37,6 +38,9 @@ export const translations = {
     exit_game_message: 'Are you sure you want to exit the game?',
     cancel: 'Cancel',
     exit: 'Exit',
+    theme: 'Theme',
+    light: 'Light',
+    dark: 'Dark',
   },
   fa: {
     home_title: 'بازی پانتومیم',
@@ -46,6 +50,7 @@ export const translations = {
     three_step: 'سه مرحله‌ای',
     turn_duration: 'مدت زمان نوبت',
     game_options: 'گزینه‌های بازی',
+    seconds_short: 'ثانیه',
     next: 'بعدی',
     team1_players: 'بازیکنان تیم ۱',
     team2_players: 'بازیکنان تیم ۲',
@@ -76,6 +81,9 @@ export const translations = {
     exit_game_message: 'آیا مطمئن هستید که می‌خواهید از بازی خارج شوید؟',
     cancel: 'انصراف',
     exit: 'خروج',
+    theme: 'تم',
+    light: 'روشن',
+    dark: 'تاریک',
   },
   tr: {
     home_title: 'Pandomim Oyunu',
@@ -85,6 +93,7 @@ export const translations = {
     three_step: '3 Aşamalı',
     turn_duration: 'Tur Süresi',
     game_options: 'Oyun Seçenekleri',
+    seconds_short: 'sn',
     next: 'İleri',
     team1_players: 'Takım 1 Oyuncuları',
     team2_players: 'Takım 2 Oyuncuları',
@@ -115,6 +124,9 @@ export const translations = {
     exit_game_message: 'Oyundan çıkmak istediğinizden emin misiniz?',
     cancel: 'Vazgeç',
     exit: 'Çık',
+    theme: 'Tema',
+    light: 'Açık',
+    dark: 'Koyu',
   },
 };
 
