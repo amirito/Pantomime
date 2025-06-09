@@ -74,6 +74,12 @@ export const getGameStyles = (themeMode: 'light' | 'dark') =>
       paddingHorizontal: 32,
       paddingVertical: 5,
     },
+    nextButtonText: {
+      fontSize: 20,
+      fontWeight: 'bold',
+      color: themeMode === 'dark' ? '#171738' : '#DDFFD9',
+      textAlign: 'center',
+    },
     passedList: {
       marginTop: 32,
       alignItems: 'center',

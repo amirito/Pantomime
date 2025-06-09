@@ -89,6 +89,98 @@ export const getGamePropsStyles = (themeMode: 'light' | 'dark') =>
       fontSize: 20,
       fontWeight: 'bold',
     },
+    customWordsButton: {
+      marginTop: 16,
+      marginBottom: 8,
+      borderColor: themeMode === 'dark' ? '#DDFFD9' : '#171738',
+      borderWidth: 1,
+      borderRadius: 20,
+      alignSelf: 'center',
+    },
+    modalOverlay: {
+      position: 'absolute',
+      top: 0,
+      left: 0,
+      right: 0,
+      bottom: 0,
+      backgroundColor: 'rgba(0,0,0,0.5)',
+      justifyContent: 'flex-end', // open from bottom
+      alignItems: 'center',
+      zIndex: 100,
+    },
+    modalContent: {
+      backgroundColor: themeMode === 'dark' ? '#222' : '#fff',
+      borderTopLeftRadius: 24,
+      borderTopRightRadius: 24,
+      borderBottomLeftRadius: 0,
+      borderBottomRightRadius: 0,
+      padding: 28,
+      paddingBottom: 100,
+      width: '100%',
+      maxHeight: '100%',
+      alignItems: 'center',
+      minHeight: 350,
+    },
+    modalTitle: {
+      fontSize: 22,
+      fontWeight: 'bold',
+      marginBottom: 18,
+      color: themeMode === 'dark' ? '#DDFFD9' : '#171738',
+    },
+    inputRow: {
+      flexDirection: 'row',
+      alignItems: 'center',
+      marginBottom: 12,
+      width: '100%',
+      justifyContent: 'space-between',
+    },
+    inputLabel: {
+      fontSize: 16,
+      marginRight: 8,
+      color: themeMode === 'dark' ? '#DDFFD9' : '#171738',
+    },
+    textInput: {
+      flex: 1,
+      borderWidth: 1,
+      borderColor: '#ccc',
+      borderRadius: 8,
+      paddingHorizontal: 8,
+      paddingVertical: 4,
+      marginRight: 8,
+      color: themeMode === 'dark' ? '#DDFFD9' : '#171738',
+      backgroundColor: themeMode === 'dark' ? '#333' : '#f9f9f9',
+      minWidth: 0,
+      height: 30
+    },
+    addWordButton: {
+      minWidth: 90,
+      alignSelf: 'flex-end',
+      backgroundColor: themeMode === 'dark' ? '#468C98' : '#468C98',
+    },
+    addWordButtonText: {
+      color: themeMode === 'dark' ? '#FFFFFF' : '#FFFFFF',
+    },
+    wordsList: {
+      width: '100%',
+      marginBottom: 12,
+      maxHeight: 180,
+    },
+    wordRow: {
+      flexDirection: 'row',
+      alignItems: 'center',
+      justifyContent: 'space-between',
+      paddingVertical: 4,
+      borderBottomWidth: 1,
+      borderBottomColor: '#eee',
+    },
+    wordText: {
+      fontSize: 16,
+      color: themeMode === 'dark' ? '#DDFFD9' : '#171738',
+    },
+    closeModalButton: {
+      marginTop: 8,
+      alignSelf: 'center',
+    },
   });
 
 export default getGamePropsStyles;

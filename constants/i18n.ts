@@ -1,3 +1,5 @@
+import { subscribe } from "expo-router/build/link/linking";
+
 export const translations = {
   en: {
     home_title: 'Pantomime Game',
@@ -41,6 +43,13 @@ export const translations = {
     theme: 'Theme',
     light: 'Light',
     dark: 'Dark',
+    use_my_own_words: 'Use My Own Words',
+    add_word: 'Add Word',
+    your_words: 'Your Words',
+    enter_word: 'Enter a word',
+    remove: 'Remove',
+    close: 'Close',
+    submit: 'Submit'
   },
   fa: {
     home_title: 'بازی پانتومیم',
@@ -84,6 +93,13 @@ export const translations = {
     theme: 'تم',
     light: 'روشن',
     dark: 'تاریک',
+    use_my_own_words: 'کلمات خودم را وارد می‌کنم',
+    add_word: 'افزودن کلمه',
+    your_words: 'کلمات شما',
+    enter_word: 'یک کلمه وارد کنید',
+    remove: 'حذف',
+    close: 'بستن',
+    submit: 'ثبت',
   },
   tr: {
     home_title: 'Pandomim Oyunu',
@@ -127,6 +143,13 @@ export const translations = {
     theme: 'Tema',
     light: 'Açık',
     dark: 'Koyu',
+    use_my_own_words: 'Kendi Kelimelerimi Kullan',
+    add_word: 'Kelime Ekle',
+    your_words: 'Senin Kelimelerin',
+    enter_word: 'Bir kelime girin',
+    remove: 'Kaldır',
+    close: 'Kapat',
+    submit: 'Gönder',
   },
 };
 

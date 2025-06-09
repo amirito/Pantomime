@@ -66,7 +66,7 @@ export default function Team2Screen() {
         disabled={players.length === 0}
         style={[styles.nextButton, players.length < 2 ? styles.nextButtonDisabled : {}]}
       >
-        <FarsiText>{t('start_game')}</FarsiText>
+        <FarsiText style={styles.nextButtonText}>{t('start_game')}</FarsiText>
       </Button>
     </SafeAreaView>
   );

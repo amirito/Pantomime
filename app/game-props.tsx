@@ -1,10 +1,11 @@
 import React, { useState, useEffect } from 'react';
-import { View } from 'react-native';
+import { View, ScrollView } from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
 import { useRouter } from 'expo-router';
-import { Button, Text, ToggleButton, IconButton } from 'react-native-paper';
+import { Button, Text, ToggleButton, IconButton, TextInput } from 'react-native-paper';
 import Slider from '@react-native-community/slider';
 import { useDispatch, useSelector } from 'react-redux';
-import { setMode, setTurnDuration, setGameOptions } from '../redux/gameSlice';
+import { setMode, setTurnDuration, setGameOptions, setCustomWords } from '../redux/gameSlice';
 import { RootState } from '../redux/store';
 import { useI18n } from '../constants/I18nContext';
 import { translations } from '../constants/i18n';
@@ -23,6 +24,7 @@ export default function GamePropsScreen() {
   const dispatch = useDispatch();
   const mode = useSelector((state: RootState) => state.game.mode);
   const turnDuration = useSelector((state: RootState) => state.game.turnDuration);
+  const customWords = useSelector((state: RootState) => state.game.customWords);
   const [duration, setDuration] = useState(turnDuration);
   const [optionCounts, setOptionCounts] = useState<{ [key: string]: number }>({
     'Easy simple': 0,
@@ -32,6 +34,8 @@ export default function GamePropsScreen() {
     'Poem': 0,
   });
   const [localMode, setLocalMode] = useState<'simple' | '3step'>(mode || '3step');
+  const [customWordsModalVisible, setCustomWordsModalVisible] = useState(false);
+  const [customWord, setCustomWord] = useState('');
   const router = useRouter();
   const { t, language } = useI18n();
   const { themeMode } = useThemeMode();
@@ -73,8 +77,11 @@ export default function GamePropsScreen() {
     'Poem': 'poem',
   };
 
+  // Total words count (optionCounts + customWords)
+  const totalWordsCount = Object.values(optionCounts).reduce((a, b) => a + b, 0) + customWords.length;
+
   return (
-    <View style={styles.container}>
+    <SafeAreaView style={styles.container} edges={["bottom", "left", "right", "top"]}>
       <FarsiText style={styles.title}>{t('game_mode')}</FarsiText>
       
       <ToggleButton.Row
@@ -102,7 +109,16 @@ export default function GamePropsScreen() {
         maximumTrackTintColor="#d3d3d3"
         thumbTintColor={themeMode === 'dark' ? '#DDFFD9' : '#171738'}
       />
+      
       <FarsiText style={styles.optionsTitle}>{t('game_options')}</FarsiText>
+      <Button
+        mode="outlined"
+        style={styles.customWordsButton}
+        onPress={() => setCustomWordsModalVisible(true)}
+        labelStyle={farsiFont}
+      >
+        <FarsiText>{t('use_my_own_words')}</FarsiText>
+      </Button>
       {GAME_OPTIONS.map(option => (
         <View key={option} style={styles.optionRow}>
           <FarsiText style={styles.optionLabel}>{t(optionTranslationKeys[option])}</FarsiText>
@@ -113,20 +129,72 @@ export default function GamePropsScreen() {
           </View>
         </View>
       ))}
+      {/* Custom Words Modal */}
+      {customWordsModalVisible && (
+        <View style={styles.modalOverlay}>
+          <View style={styles.modalContent}>
+            {/* Close icon button at top right */}
+            <IconButton
+              icon="close"
+              size={24}
+              style={{ position: 'absolute', top: 8, right: 8, zIndex: 10 }}
+              onPress={() => setCustomWordsModalVisible(false)}
+              accessibilityLabel="Close"
+            />
+            <FarsiText style={styles.modalTitle}>{t('your_words')}</FarsiText>
+            <View style={styles.inputRow}>
+              <TextInput
+                value={customWord}
+                onChangeText={setCustomWord}
+                style={styles.textInput}
+                placeholder={t('enter_word')}
+                placeholderTextColor="#888"
+              />
+              <Button
+                mode="contained"
+                onPress={() => {
+                  if (customWord.trim()) {
+                    dispatch(setCustomWords([customWord.trim(), ...customWords]));
+                    setCustomWord('');
+                  }
+                }}
+                labelStyle={farsiFont}
+                style={styles.addWordButton}
+              >
+                <FarsiText style={styles.addWordButtonText}>{t('add_word')}</FarsiText>
+              </Button>
+            </View>
+            <View style={styles.wordsList}>
+              <ScrollView style={{ maxHeight: 400 }}>
+                {customWords.map((word, idx) => (
+                  <View key={idx} style={styles.wordRow}>
+                    <FarsiText style={styles.wordText}>{word}</FarsiText>
+                    <IconButton icon="close" size={18} onPress={() => dispatch(setCustomWords(customWords.filter((_, i) => i !== idx)))} />
+                  </View>
+                ))}
+              </ScrollView>
+            </View>
+            <Button mode="outlined" onPress={() => setCustomWordsModalVisible(false)} labelStyle={farsiFont} style={styles.closeModalButton}>
+              <FarsiText>{t('submit')}</FarsiText>
+            </Button>
+          </View>
+        </View>
+      )}
+
       <Button
         mode="contained"
-        style={[styles.nextButton, Object.values(optionCounts).reduce((a, b) => a + b, 0) < 10 && styles.nextButtonDisabled]}
+        style={[styles.nextButton, totalWordsCount < 10 && styles.nextButtonDisabled]}
         onPress={() => {
           dispatch(setTurnDuration(duration));
           dispatch(setGameOptions(optionCounts));
+          dispatch(setCustomWords(customWords));
           router.push('/team1');
         }}
-        
         labelStyle={styles.nextButtonText}
-        disabled={Object.values(optionCounts).reduce((a, b) => a + b, 0) < 10}
+        disabled={totalWordsCount < 10}
       >
-        <FarsiText>{t('next')}</FarsiText>
+        <FarsiText style={styles.nextButtonText}>{t('next')}</FarsiText>
       </Button>
-    </View>
+    </SafeAreaView>
   );
 }

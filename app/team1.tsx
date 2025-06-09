@@ -62,7 +62,7 @@ export default function Team1Screen() {
         disabled={players.length === 0}
         style={[styles.nextButton, players.length < 2 ? styles.nextButtonDisabled : {}]}
       >
-        <FarsiText>{t('next')}</FarsiText>
+        <FarsiText style={styles.nextButtonText}>{t('next')}</FarsiText>
       </Button>
     </SafeAreaView>
   );

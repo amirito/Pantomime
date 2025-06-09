@@ -1,6 +1,7 @@
 import React from 'react';
 import { View, Image } from 'react-native';
 import { Text, Menu, Button as PaperButton, Switch } from 'react-native-paper';
+import { SafeAreaView } from 'react-native-safe-area-context';
 import { useI18n } from '../../constants/I18nContext';
 import { useThemeMode } from '../../constants/ThemeContext';
 import getSettingsStyles from '../../styles/settings.styles';
@@ -28,7 +29,7 @@ export default function SettingsScreen() {
   const lightLabel = t('light');
   const darkLabel = t('dark');
   return (
-    <View style={styles.container}>
+    <SafeAreaView style={styles.container} edges={["bottom", "left", "right", "top"]}>
       <FarsiText style={styles.title}>{t('settings')}</FarsiText>
       <FarsiText style={styles.label}>{t('language')}</FarsiText>
       <Menu
@@ -65,6 +66,6 @@ export default function SettingsScreen() {
         />
         <FarsiText style={{ marginLeft: 12 }}>{darkLabel}</FarsiText>
       </View>
-    </View>
+    </SafeAreaView>
   );
 }

@@ -8,6 +8,7 @@ import { useRouter } from 'expo-router';
 import { useI18n } from '../constants/I18nContext';
 import getGameStyles from '../styles/game.styles';
 import { useThemeMode } from '../constants/ThemeContext';
+import { SafeAreaView } from 'react-native-safe-area-context';
 
 // Mapping from gameOptions keys to word database categories
 const CATEGORY_MAP: Record<string, string> = {
@@ -68,19 +69,23 @@ export default function GameScreen() {
   // Helper to apply Farsi font to all Text
   const FarsiText = (props: React.ComponentProps<typeof Text>) => <Text {...props} style={[props.style, farsiFont]} />;
 
+  const customWords = useSelector((state: RootState) => state.game.customWords);
+
   // Select words on mount (only for round 1 or if mode is not 3step)
   useEffect(() => {
+    let words: string[] = [];
     if (mode === '3step') {
       if (round === 1) {
-        const words = getRandomWordsByCategory(wordsDatabase as any, gameOptions);
+        words = getRandomWordsByCategory(wordsDatabase as any, gameOptions);
+        if (customWords.length > 0) words = words.concat(customWords);
         setSelectedWords(words);
         setRemainingWords(words);
       } else {
         setRemainingWords(selectedWords);
       }
     } else {
-      // simple mode: always select new words
-      const words = getRandomWordsByCategory(wordsDatabase as any, gameOptions);
+      words = getRandomWordsByCategory(wordsDatabase as any, gameOptions);
+      if (customWords.length > 0) words = words.concat(customWords);
       setSelectedWords(words);
       setRemainingWords(words);
     }
@@ -93,7 +98,7 @@ export default function GameScreen() {
     setTeam2Played([]);
     setCurrentTeam('team1');
     setShowResults(false);
-  }, [gameOptions, round, mode]);
+  }, [gameOptions, round, mode, customWords]);
 
   // Handle Android back button
   useEffect(() => {
@@ -309,7 +314,7 @@ export default function GameScreen() {
 
   // UI
   return (
-    <View style={styles.container}>
+    <SafeAreaView style={styles.container} edges={["bottom", "left", "right", "top"]}>
       {isRunning ? (
         <>
           {mode === '3step' && (
@@ -344,7 +349,7 @@ export default function GameScreen() {
             </View>
           )}
           <Button mode="contained" onPress={nextTurn} style={styles.nextButton} labelStyle={farsiFont}>
-            <FarsiText>{t('next_player')}{nextPlayerName ? `: ${nextPlayerName}` : ''}</FarsiText>
+            <FarsiText style={styles.nextButtonText}>{t('next_player')}{nextPlayerName ? `: ${nextPlayerName}` : ''}</FarsiText>
           </Button>
         </>
       )}
@@ -360,6 +365,6 @@ export default function GameScreen() {
           </Dialog.Actions>
         </Dialog>
       </Portal>
-    </View>
+    </SafeAreaView>
   );
 }

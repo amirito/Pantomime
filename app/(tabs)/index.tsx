@@ -5,6 +5,7 @@ import { useRouter } from 'expo-router';
 import { useI18n } from '../../constants/I18nContext';
 import getHomeStyles from '../../styles/home.styles';
 import { useThemeMode } from '../../constants/ThemeContext';
+import { SafeAreaView } from 'react-native-safe-area-context';
 
 export default function HomeScreen() {
   const router = useRouter();
@@ -14,7 +15,7 @@ export default function HomeScreen() {
   const farsiFont = language === 'fa' ? { fontFamily: 'Samim' } : {};
   const FarsiText = (props: React.ComponentProps<typeof Text>) => <Text {...props} style={[props.style, farsiFont]} />;
   return (
-    <>
+    <SafeAreaView style={styles.container} edges={["bottom", "left", "right", "top"]}>
       <View style={styles.headerContainer}>
         <FarsiText variant="headlineLarge" style={styles.headerText}>{t('home_title')}</FarsiText>
       </View>
@@ -29,6 +30,6 @@ export default function HomeScreen() {
           <FarsiText style={styles.buttonText}>{t('create_new_game')}</FarsiText>
         </Button>
       </View>
-    </>
+    </SafeAreaView>
   );
 }

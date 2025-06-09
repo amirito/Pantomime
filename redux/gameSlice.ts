@@ -8,6 +8,7 @@ interface GameState {
   team2: string[];
   turnDuration: number; // in seconds
   gameOptions: { [key: string]: number };
+  customWords: string[];
 }
 
 const initialState: GameState = {
@@ -22,6 +23,7 @@ const initialState: GameState = {
     'Hard combination': 0,
     'Poem': 0,
   },
+  customWords: [],
 };
 
 const gameSlice = createSlice({
@@ -43,6 +45,9 @@ const gameSlice = createSlice({
     setGameOptions(state, action: PayloadAction<{ [key: string]: number }>) {
       state.gameOptions = action.payload;
     },
+    setCustomWords(state, action: PayloadAction<string[]>) {
+      state.customWords = action.payload;
+    },
     resetGame(state) {
       state.mode = 'simple';
       state.team1 = [];
@@ -55,9 +60,10 @@ const gameSlice = createSlice({
         'Hard combination': 0,
         'Poem': 0,
       };
+      state.customWords = [];
     },
   },
 });
 
-export const { setMode, setTeam1, setTeam2, setTurnDuration, setGameOptions, resetGame } = gameSlice.actions;
+export const { setMode, setTeam1, setTeam2, setTurnDuration, setGameOptions, setCustomWords, resetGame } = gameSlice.actions;
 export default gameSlice.reducer;
